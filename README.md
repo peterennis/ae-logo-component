@@ -59,3 +59,5 @@ Push the changes in the local repository to GitHub.
 ```bash
 git push origin master
 ```
+
+The initial commit in GitHub is [here](https://github.com/peterennis/ae-logo-component/commit/241960a3419e3b9a3c815b6adfcaf42bcef41dfb).
