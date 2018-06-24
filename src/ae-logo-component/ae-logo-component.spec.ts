@@ -7,7 +7,7 @@ describe('ae-logo-component', () => {
   });
 
   describe('rendering', () => {
-    let element: HTMLMyComponentElement;
+    let element: HTMLAeLogoComponentElement;
     let testWindow: TestWindow;
     beforeEach(async () => {
       testWindow = new TestWindow();
@@ -21,23 +21,23 @@ describe('ae-logo-component', () => {
       expect(element.textContent.trim()).toEqual('Hello, World! I\'m');
     });
 
-    it('should work with a first name', async () => {
-      element.first = 'Peter';
+    it('should work with a first color', async () => {
+      element.firstcolor = 'Red';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Peter');
+      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Red');
     });
 
-    it('should work with a last name', async () => {
-      element.last = 'Parker';
+    it('should work with a second color', async () => {
+      element.secondcolor = 'Green';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m  Parker');
+      expect(element.textContent.trim()).toEqual('Hello, World! I\'m  Green');
     });
 
-    it('should work with both a first and a last name', async () => {
-      element.first = 'Peter';
-      element.last = 'Parker';
+    it('should work with both a first color and a second color', async () => {
+      element.firstcolor = 'Red';
+      element.secondcolor = 'Green';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Peter Parker');
+      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Red Green');
     });
   });
 });

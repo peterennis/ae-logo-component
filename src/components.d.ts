@@ -30,8 +30,8 @@ declare global {
 
   namespace StencilComponents {
     interface AeLogoComponent {
-      'first': string;
-      'last': string;
+      'firstcolor': string;
+      'secondcolor': string;
     }
   }
 
@@ -54,8 +54,8 @@ declare global {
   }
   namespace JSXElements {
     export interface AeLogoComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+      'firstcolor'?: string;
+      'secondcolor'?: string;
     }
   }
 }

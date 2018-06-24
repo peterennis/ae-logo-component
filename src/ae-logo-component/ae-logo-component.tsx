@@ -7,13 +7,13 @@ import { Component, Prop } from '@stencil/core';
 })
 export class AeLogoComponent {
 
-  @Prop() first: string;
-  @Prop() last: string;
+  @Prop() firstcolor: string;
+  @Prop() secondcolor: string;
 
   render() {
     return (
       <div>
-        Hello, World! I'm {this.first} {this.last}
+        Hello, World! I'm {this.firstcolor} {this.secondcolor}
       </div>
     );
   }
