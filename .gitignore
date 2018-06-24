@@ -1,3 +1,6 @@
+dist/
+www/
+
 *~
 *.sw[mnpcod]
 *.log
@@ -8,20 +11,15 @@ log.txt
 *.sublime-project
 *.sublime-workspace
 
+.stencil/
 .idea/
 .vscode/
 .sass-cache/
 .versions/
 node_modules/
+$RECYCLE.BIN/
 
-/dist/
-**/www/build/
-
-# submodule packages
-/compiler
-/polyfills
-/server
-/sys
-/testing
-
-test/e2e/app/components.d.ts
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+.env
