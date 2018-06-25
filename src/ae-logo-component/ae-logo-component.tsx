@@ -13,7 +13,7 @@ export class AeLogoComponent {
   render() {
     return (
       <div>
-        Hello, World! I'm {this.firstcolor} {this.secondcolor}
+        adaept {this.firstcolor} {this.secondcolor}
       </div>
     );
   }

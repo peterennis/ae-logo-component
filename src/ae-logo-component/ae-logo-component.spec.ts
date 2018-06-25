@@ -18,26 +18,27 @@ describe('ae-logo-component', () => {
     });
 
     it('should work without parameters', () => {
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m');
+      expect(element.textContent.trim()).toEqual('adaept');
     });
 
-    it('should work with a first color', async () => {
+    it('should work with only a first color', async () => {
       element.firstcolor = 'Red';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Red');
+      expect(element.textContent.trim()).toEqual('adaept Red');
     });
 
-    it('should work with a second color', async () => {
+    // There are two spaces in this test as the first color is not provided
+    it('should work with only a second color', async () => {
       element.secondcolor = 'Green';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m  Green');
+      expect(element.textContent.trim()).toEqual('adaept  Green');
     });
 
     it('should work with both a first color and a second color', async () => {
       element.firstcolor = 'Red';
       element.secondcolor = 'Green';
       await testWindow.flush();
-      expect(element.textContent.trim()).toEqual('Hello, World! I\'m Red Green');
+      expect(element.textContent.trim()).toEqual('adaept Red Green');
     });
   });
 });
