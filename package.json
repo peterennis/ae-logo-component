@@ -1,6 +1,6 @@
 {
   "name": "ae-logo-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Build a component for the [adaept](www.adaept.com) logo",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
