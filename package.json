@@ -19,7 +19,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "~0.10.0-6",
+    "@stencil/core": "~0.10.0-9",
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest",
     "@types/jest": "~21.1.1",
