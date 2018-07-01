@@ -8,5 +8,8 @@ exports.config = {
       type: 'www',
       serviceWorker: false
     }
+  ],
+  bundles: [
+    { components: ['ae-logo-component', 'ae-devlist-component'] }
   ]
 };

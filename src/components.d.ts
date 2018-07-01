@@ -29,6 +29,39 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface AeDevlistComponent {
+
+    }
+  }
+
+  interface HTMLAeDevlistComponentElement extends StencilComponents.AeDevlistComponent, HTMLStencilElement {}
+
+  var HTMLAeDevlistComponentElement: {
+    prototype: HTMLAeDevlistComponentElement;
+    new (): HTMLAeDevlistComponentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'ae-devlist-component': HTMLAeDevlistComponentElement;
+  }
+  interface ElementTagNameMap {
+    'ae-devlist-component': HTMLAeDevlistComponentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'ae-devlist-component': JSXElements.AeDevlistComponentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AeDevlistComponentAttributes extends HTMLAttributes {
+      'onOnToggle'?: (event: CustomEvent) => void;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AeLogoComponent {
       'firstcolor': string;
       'secondcolor': string;
