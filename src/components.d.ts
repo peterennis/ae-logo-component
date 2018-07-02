@@ -93,6 +93,41 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface AeSvgComponent {
+      'aegreen': string;
+      'aered': string;
+    }
+  }
+
+  interface HTMLAeSvgComponentElement extends StencilComponents.AeSvgComponent, HTMLStencilElement {}
+
+  var HTMLAeSvgComponentElement: {
+    prototype: HTMLAeSvgComponentElement;
+    new (): HTMLAeSvgComponentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'ae-svg-component': HTMLAeSvgComponentElement;
+  }
+  interface ElementTagNameMap {
+    'ae-svg-component': HTMLAeSvgComponentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'ae-svg-component': JSXElements.AeSvgComponentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AeSvgComponentAttributes extends HTMLAttributes {
+      'aegreen'?: string;
+      'aered'?: string;
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }
 
 export declare function defineCustomElements(window: any): void;
