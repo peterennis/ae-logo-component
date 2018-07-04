@@ -98,8 +98,8 @@ declare global {
 
   namespace StencilComponents {
     interface AeSvgComponent {
-      'aegreen': string;
-      'aered': string;
+      'url': string;
+      'wide': string;
     }
   }
 
@@ -122,8 +122,8 @@ declare global {
   }
   namespace JSXElements {
     export interface AeSvgComponentAttributes extends HTMLAttributes {
-      'aegreen'?: string;
-      'aered'?: string;
+      'url'?: string;
+      'wide'?: string;
     }
   }
 }

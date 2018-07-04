@@ -10,6 +10,6 @@ exports.config = {
     }
   ],
   bundles: [
-    { components: ['ae-logo-component', 'ae-devlist-component'] }
+    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component'] }
   ]
 };
