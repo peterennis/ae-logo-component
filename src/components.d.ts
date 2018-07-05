@@ -98,6 +98,7 @@ declare global {
 
   namespace StencilComponents {
     interface AeSvgComponent {
+      'id': string;
       'url': string;
       'wide': string;
     }
@@ -122,6 +123,7 @@ declare global {
   }
   namespace JSXElements {
     export interface AeSvgComponentAttributes extends HTMLAttributes {
+      'id'?: string;
       'url'?: string;
       'wide'?: string;
     }

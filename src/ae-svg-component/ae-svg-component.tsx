@@ -7,6 +7,7 @@ import { Component, Prop } from '@stencil/core';
 })
 export class AeSvgComponent {
 
+  @Prop() id: string;
   @Prop() wide: string;
   @Prop() url: string;
 
@@ -18,12 +19,16 @@ export class AeSvgComponent {
    */
   componentWillLoad() {
     console.log('Component ae-svg-component is about to be rendered');
+    console.log('this.id=' + this.id);
+
+    //let theClass = document.querySelector("#aesvg");
+    //theClass.classList.remove("#ae2");
   }
 
   render() {
     return (
       <div>
-        <img src={this.url} width={this.wide} />
+        <img id={this.id} class="aesvg" src={this.url} width={this.wide} />
       </div>
     );
   }
