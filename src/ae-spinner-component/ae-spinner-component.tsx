@@ -19,7 +19,7 @@ export class AeSpinnerComponent {
 						<path fill={this.colortwo} d="M253.337 7.756c-114.07.06-246.76 92.475-246.775 249.31 32.5-146.995 125.02-208.175 243.65-216.43 128.355 4.245 220.595 118.22 225.085 211.905l30.665-.95C504.257 115.681 391.017 7.686 253.337 7.756zm88.44 121.05c-32.05 1.375-58.165 16.2-79.5 40.035l-9.44 161.16c27.58 28.475 66.865 43.985 101.325 44.215 78.915.005 138.355-57.405 151.73-122.595l-30.545.835c-17.74 64.255-71.275 91.645-121.96 94.2-48.985-1.84-81.805-32.435-79.855-95.45l161.48.85c.18-32.66-6.095-70.775-24.38-94.3-15.77-19.225-38.64-28.95-68.855-28.95zm.93 30.16c39.06 1.83 55.17 27.445 59.23 61.775H276.272c5.85-36.5 32.215-61.255 66.435-61.775z" />
 					</svg>
 				)
-				case 'circle':
+			case 'circle':
 				return (
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xmlSpace="preserve">
 						<path fill={this.color} d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z" transform="rotate(360 -4.05439e-8 -4.05439e-8)">
@@ -526,6 +526,17 @@ export class AeSpinnerComponent {
 								to="360 50 50"
 								repeatCount="indefinite" />
 						</line>
+					</svg>
+				)
+			case 'propel':
+				return (
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" >
+						<g>
+							<polyline points="57,53.8 82.7,65 85.2,61.3 58.2,44.7" />
+							<polyline points="53.8,40.2 52.3,13.2 47,13.2 46.3,40.3" />
+							<polyline points="41.7,45.5 15.8,60.8 18,64.7 42.8,53.5" />
+							<animateTransform attributeName="transform" type="rotate" dur="3s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+						</g>
 					</svg>
 				)
 			default:
