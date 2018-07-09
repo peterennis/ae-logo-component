@@ -97,6 +97,41 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface AeSpinnerComponent {
+      'color': string;
+      'type': string;
+    }
+  }
+
+  interface HTMLAeSpinnerComponentElement extends StencilComponents.AeSpinnerComponent, HTMLStencilElement {}
+
+  var HTMLAeSpinnerComponentElement: {
+    prototype: HTMLAeSpinnerComponentElement;
+    new (): HTMLAeSpinnerComponentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'ae-spinner-component': HTMLAeSpinnerComponentElement;
+  }
+  interface ElementTagNameMap {
+    'ae-spinner-component': HTMLAeSpinnerComponentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'ae-spinner-component': JSXElements.AeSpinnerComponentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AeSpinnerComponentAttributes extends HTMLAttributes {
+      'color'?: string;
+      'type'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AeSvgComponent {
       'id': string;
       'url': string;

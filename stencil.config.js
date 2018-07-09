@@ -1,3 +1,5 @@
+const sass = require('@stencil/sass');
+
 exports.config = {
   namespace: 'adaept',
   outputTargets:[
@@ -10,6 +12,14 @@ exports.config = {
     }
   ],
   bundles: [
-    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component'] }
+    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component', 'ae-spinner-component'] }
+  ],
+  plugins: [
+    sass()
   ]
 };
+
+exports.devServer = {
+  root: 'www',
+  watchGlob: '**/**'
+}
