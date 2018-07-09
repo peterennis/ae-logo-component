@@ -35,7 +35,6 @@ export class AeDevlistComponent {
   ];
 
   @State() toggle: boolean = false;
-
   @Event() onToggle: EventEmitter;
 
   toggleComponent(): void {
@@ -45,7 +44,52 @@ export class AeDevlistComponent {
 
   render() {
     return (
+   
       <div>
+          <ion-item>
+            <ion-icon name="pin" slot="start" size="small"></ion-icon>
+            <ion-label>ion-item in a card, icon left, button right</ion-label>
+            <ion-button fill="outline" slot="end">View</ion-button>
+          </ion-item>
+      </div>
+
+
+
+/*
+          <ion-card>
+            <ion-card-content>
+              <a href={this.list[0].url}><img src={this.list[0].imageUrl} /></a>
+            </ion-card-content>
+          </ion-card>
+        </div> */
+
+/*        <div class={this.toggle ? 'active' : 'inactive'}>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                <ion-card-title>Card Title</ion-card-title>
+            </ion-card-header>
+
+            <ion-card-content>
+              Keep close to Nature's heart... and break clear away, once in awhile,
+              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+            </ion-card-content>
+          </ion-card>
+        </div> */
+
+    );
+  }
+}
+
+
+/*
+            <ion-buttons>
+              <ion-button fill='clear' color='primary' onClick={() => this.navigateToTrack(track)}>
+                Play
+                </ion-button>
+            </ion-buttons> */
+
+/*
         <div class="jumbotron">
           <center>
             <h1 class="display-3">Welcome!</h1>
@@ -54,7 +98,6 @@ export class AeDevlistComponent {
           </center>
         </div>
 
-        <div class={this.toggle ? 'active' : 'inactive'}>
           <div class="row">
             {
               this.list.map(entry =>
@@ -71,8 +114,4 @@ export class AeDevlistComponent {
               )
             }
           </div>
-        </div>
-      </div>
-    );
-  }
-}
+*/
