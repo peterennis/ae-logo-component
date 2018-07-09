@@ -99,6 +99,7 @@ declare global {
   namespace StencilComponents {
     interface AeSpinnerComponent {
       'color': string;
+      'colortwo': string;
       'type': string;
     }
   }
@@ -123,6 +124,7 @@ declare global {
   namespace JSXElements {
     export interface AeSpinnerComponentAttributes extends HTMLAttributes {
       'color'?: string;
+      'colortwo'?: string;
       'type'?: string;
     }
   }
