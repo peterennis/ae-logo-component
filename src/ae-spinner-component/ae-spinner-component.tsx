@@ -313,6 +313,213 @@ export class AeSpinnerComponent {
 						</g>
 					</svg>
 				)
+			case 'audio':
+				return (
+					<svg width="55" height="80" viewBox="0 0 55 80" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
+						<g transform="matrix(1 0 0 -1 0 80)">
+							<rect width="10" height="20" rx="3">
+								<animate attributeName="height"
+									begin="0s" dur="4.3s"
+									values="20;45;57;80;64;32;66;45;64;23;66;13;64;56;34;34;2;23;76;79;20" calcMode="linear"
+									repeatCount="indefinite" />
+							</rect>
+							<rect x="15" width="10" height="80" rx="3">
+								<animate attributeName="height"
+									begin="0s" dur="2s"
+									values="80;55;33;5;75;23;73;33;12;14;60;80" calcMode="linear"
+									repeatCount="indefinite" />
+							</rect>
+							<rect x="30" width="10" height="50" rx="3">
+								<animate attributeName="height"
+									begin="0s" dur="1.4s"
+									values="50;34;78;23;56;23;34;76;80;54;21;50" calcMode="linear"
+									repeatCount="indefinite" />
+							</rect>
+							<rect x="45" width="10" height="30" rx="3">
+								<animate attributeName="height"
+									begin="0s" dur="2s"
+									values="30;45;13;80;56;72;45;76;34;23;67;30" calcMode="linear"
+									repeatCount="indefinite" />
+							</rect>
+						</g>
+					</svg>
+				)
+			case 'spikes':
+				return (
+					<svg width="135" height="140" viewBox="0 0 135 140" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
+						<rect y="10" width="15" height="120" rx="6">
+							<animate attributeName="height"
+								begin="0.5s" dur="1s"
+								values="120;110;100;90;80;70;60;50;40;140;120" calcMode="linear"
+								repeatCount="indefinite" />
+							<animate attributeName="y"
+								begin="0.5s" dur="1s"
+								values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+								repeatCount="indefinite" />
+						</rect>
+						<rect x="30" y="10" width="15" height="120" rx="6">
+							<animate attributeName="height"
+								begin="0.25s" dur="1s"
+								values="120;110;100;90;80;70;60;50;40;140;120" calcMode="linear"
+								repeatCount="indefinite" />
+							<animate attributeName="y"
+								begin="0.25s" dur="1s"
+								values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+								repeatCount="indefinite" />
+						</rect>
+						<rect x="60" width="15" height="140" rx="6">
+							<animate attributeName="height"
+								begin="0s" dur="1s"
+								values="120;110;100;90;80;70;60;50;40;140;120" calcMode="linear"
+								repeatCount="indefinite" />
+							<animate attributeName="y"
+								begin="0s" dur="1s"
+								values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+								repeatCount="indefinite" />
+						</rect>
+						<rect x="90" y="10" width="15" height="120" rx="6">
+							<animate attributeName="height"
+								begin="0.25s" dur="1s"
+								values="120;110;100;90;80;70;60;50;40;140;120" calcMode="linear"
+								repeatCount="indefinite" />
+							<animate attributeName="y"
+								begin="0.25s" dur="1s"
+								values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+								repeatCount="indefinite" />
+						</rect>
+						<rect x="120" y="10" width="15" height="120" rx="6">
+							<animate attributeName="height"
+								begin="0.5s" dur="1s"
+								values="120;110;100;90;80;70;60;50;40;140;120" calcMode="linear"
+								repeatCount="indefinite" />
+							<animate attributeName="y"
+								begin="0.5s" dur="1s"
+								values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+								repeatCount="indefinite" />
+						</rect>
+					</svg>
+				)
+			case 'threelegs':
+				return (
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 50 50;" space="preserve">
+						<rect x="0" y="0" width="4" height="7" fill={this.color}>
+							<animateTransform attributeType="xml"
+								attributeName="transform" type="scale"
+								values="1,1; 1,3; 1,1"
+								begin="0s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+						<rect x="10" y="0" width="4" height="7" fill={this.color}>
+							<animateTransform attributeType="xml"
+								attributeName="transform" type="scale"
+								values="1,1; 1,3; 1,1"
+								begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+						<rect x="20" y="0" width="4" height="7" fill={this.color}>
+							<animateTransform attributeType="xml"
+								attributeName="transform" type="scale"
+								values="1,1; 1,3; 1,1"
+								begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+					</svg>
+				)
+			case 'wheelie':
+				return (
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" space="preserve">
+						<circle fill="none" stroke={this.color} stroke-width="6" stroke-miterlimit="15" stroke-dasharray="14.2472,14.2472" cx="50" cy="50" r="47" >
+							<animateTransform
+								attributeName="transform"
+								attributeType="XML"
+								type="rotate"
+								dur="5s"
+								from="0 50 50"
+								to="360 50 50"
+								repeatCount="indefinite" />
+						</circle>
+						<circle fill="none" stroke={this.color} stroke-width="1" stroke-miterlimit="10" stroke-dasharray="10,10" cx="50" cy="50" r="39">
+							<animateTransform
+								attributeName="transform"
+								attributeType="XML"
+								type="rotate"
+								dur="5s"
+								from="0 50 50"
+								to="-360 50 50"
+								repeatCount="indefinite" />
+						</circle>
+						<g fill={this.color}>
+							<rect x="30" y="35" width="5" height="30">
+								<animateTransform
+									attributeName="transform"
+									dur="1s"
+									type="translate"
+									values="0 5 ; 0 -5; 0 5"
+									repeatCount="indefinite"
+									begin="0.1" />
+							</rect>
+							<rect x="40" y="35" width="5" height="30" >
+								<animateTransform
+									attributeName="transform"
+									dur="1s"
+									type="translate"
+									values="0 5 ; 0 -5; 0 5"
+									repeatCount="indefinite"
+									begin="0.2" />
+							</rect>
+							<rect x="50" y="35" width="5" height="30" >
+								<animateTransform
+									attributeName="transform"
+									dur="1s"
+									type="translate"
+									values="0 5 ; 0 -5; 0 5"
+									repeatCount="indefinite"
+									begin="0.3" />
+							</rect>
+							<rect x="60" y="35" width="5" height="30" >
+								<animateTransform
+									attributeName="transform"
+									dur="1s"
+									type="translate"
+									values="0 5 ; 0 -5; 0 5"
+									repeatCount="indefinite"
+									begin="0.4" />
+							</rect>
+							<rect x="70" y="35" width="5" height="30" >
+								<animateTransform
+									attributeName="transform"
+									dur="1s"
+									type="translate"
+									values="0 5 ; 0 -5; 0 5"
+									repeatCount="indefinite"
+									begin="0.5" />
+							</rect>
+						</g>
+					</svg>
+				)
+			case 'clock':
+				return (
+					<svg version="1.1" id="L2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml: space="preserve">
+						<circle fill="none" stroke={this.color} stroke-width="4" stroke-miterlimit="10" cx="50" cy="50" r="48" />
+						<line fill="none" stroke-linecap="round" stroke={this.color} stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="85" y2="50.5">
+							<animateTransform
+								attributeName="transform"
+								dur="2s"
+								type="rotate"
+								from="0 50 50"
+								to="360 50 50"
+								repeatCount="indefinite" />
+						</line>
+						<line fill="none" stroke-linecap="round" stroke={this.color} stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="49.5" y2="74">
+							<animateTransform
+								attributeName="transform"
+								dur="15s"
+								type="rotate"
+								from="0 50 50"
+								to="360 50 50"
+								repeatCount="indefinite" />
+						</line>
+					</svg>
+				)
 			default:
 				return (null);
 		}
