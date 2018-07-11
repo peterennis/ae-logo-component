@@ -1,3 +1,8 @@
+// Ref: http://samherbert.net/svg-loaders/
+// Ref: https://codegeekz.com/best-css-svg-loaders-and-spinners/
+// Ref: https://codepen.io/chrisgannon/post/seven-stages-of-svg
+// Ref: https://codepen.io/deineko/pen/yyWgEW
+
 import { Component, Prop } from '@stencil/core';
 
 @Component({
@@ -602,6 +607,25 @@ export class AeSpinnerComponent {
                 fill="freeze"
                 begin="0s;strokeBox.end" />
             </rect>
+          </svg>
+        )
+      case 'deineko':
+        return (
+          <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="m24preloader">
+            <path d="M0 50A50 50 0 0 1 50 0L50 50L0 50" fill="#ccdc25" opacity="0.85">
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="8s" repeatCount="indefinite"></animateTransform>
+            </path>
+            <path d="M50 0A50 50 0 0 1 100 50L50 50L50 0" fill="#3bb4e5" opacity="0.85">
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite"></animateTransform>
+            </path>
+            <path d="M100 50A50 50 0 0 1 50 100L50 50L100 50" fill="#823d97" opacity="0.85">
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="4s" repeatCount="indefinite"></animateTransform>
+            </path>
+            <path d="M50 100A50 50 0 0 1 0 50L50 50L50 100" fill="#eb1777" opacity="0.85">
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="2s" repeatCount="indefinite"></animateTransform>
+            </path>
+            <circle cx="50" cy="50" r="45"
+              fill="none" stroke="#d0d2d3" stroke-width="10" />
           </svg>
         )
       default:
