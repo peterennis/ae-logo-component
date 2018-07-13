@@ -1,6 +1,6 @@
 {
   "name": "ae-logo-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Build a component for the [adaept](www.adaept.com) logo",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "~0.10.0-9",
+    "@stencil/core": "~0.10.4",
     "@stencil/dev-server": "latest",
     "@stencil/sass": "0.0.5",
     "@stencil/utils": "latest",

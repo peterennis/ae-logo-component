@@ -2,6 +2,7 @@
 // Ref: https://codegeekz.com/best-css-svg-loaders-and-spinners/
 // Ref: https://codepen.io/chrisgannon/post/seven-stages-of-svg
 // Ref: https://codepen.io/deineko/pen/yyWgEW
+// Ref: https://github.com/alexk111/SVG-Morpheus/issues/2
 
 import { Component, Prop } from '@stencil/core';
 
