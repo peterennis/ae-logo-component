@@ -1,5 +1,12 @@
+
 ion-icon {
-  font-size: 64px;
+  width: 48px !important;
+  height: 48px !important;
+}
+
+ion-spinner {
+  width: 32px !important;
+  height: 32px !important;
 }
 
 .active {

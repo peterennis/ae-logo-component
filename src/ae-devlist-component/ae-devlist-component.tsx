@@ -42,40 +42,58 @@ export class AeDevlistComponent {
     this.onToggle.emit({ visible: this.toggle })
   }
 
+  /*  <ion-card>
+    <ion-item>
+      
+      <ion-label><ion-icon name="pin" slot="start" size="small"></ion-icon>ion-item in a card, icon left, button right</ion-label>
+      <ion-button fill="outline" slot="end">View</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-card> */
+
   render() {
     return (
-   
+
       <div>
-          <ion-item>
-            <ion-icon name="pin" slot="start" size="small"></ion-icon>
-            <ion-label>ion-item in a card, icon left, button right</ion-label>
-            <ion-button fill="outline" slot="end">View</ion-button>
-          </ion-item>
+        <ion-card>
+          <ion-card-header>
+            <p><ion-icon name="pin" slot="start" size="large"></ion-icon></p>
+            <ion-spinner name=""></ion-spinner>
+            <ion-spinner name="lines" color="danger"></ion-spinner>
+            <ion-spinner name="ios-small"></ion-spinner>
+            <ion-spinner name="dots"></ion-spinner>
+            <ion-spinner name="circles" class="spinner-energized"></ion-spinner>
+
+            <img src='/assets/treehouse.png' />
+
+
+          </ion-card-header>
+        </ion-card>
       </div>
 
 
 
-/*
-          <ion-card>
-            <ion-card-content>
-              <a href={this.list[0].url}><img src={this.list[0].imageUrl} /></a>
-            </ion-card-content>
-          </ion-card>
-        </div> */
+      /*
+                <ion-card>
+                  <ion-card-content>
+                    <a href={this.list[0].url}><img src={this.list[0].imageUrl} /></a>
+                  </ion-card-content>
+                </ion-card>
+              </div> */
 
-/*        <div class={this.toggle ? 'active' : 'inactive'}>
-          <ion-card>
-            <ion-card-header>
-              <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                <ion-card-title>Card Title</ion-card-title>
-            </ion-card-header>
-
-            <ion-card-content>
-              Keep close to Nature's heart... and break clear away, once in awhile,
-              and climb a mountain or spend a week in the woods. Wash your spirit clean.
-            </ion-card-content>
-          </ion-card>
-        </div> */
+      /*        <div class={this.toggle ? 'active' : 'inactive'}>
+                <ion-card>
+                  <ion-card-header>
+                    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                      <ion-card-title>Card Title</ion-card-title>
+                  </ion-card-header>
+      
+                  <ion-card-content>
+                    Keep close to Nature's heart... and break clear away, once in awhile,
+                    and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                  </ion-card-content>
+                </ion-card>
+              </div> */
 
     );
   }
