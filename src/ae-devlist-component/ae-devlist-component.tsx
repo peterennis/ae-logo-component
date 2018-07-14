@@ -57,17 +57,17 @@ export class AeDevlistComponent {
       <div>
         <ion-card>
           <ion-card-header>
-            <p><ion-icon name="pin" slot="start" size="large"></ion-icon></p>
-            <ion-spinner name=""></ion-spinner>
-            <ion-spinner name="lines" color="danger"></ion-spinner>
-            <ion-spinner name="ios-small"></ion-spinner>
-            <ion-spinner name="dots"></ion-spinner>
-            <ion-spinner name="circles" class="spinner-energized"></ion-spinner>
-
-            <img src='/assets/treehouse.png' />
-
-
+            <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
+            <h2><ion-spinner name=""></ion-spinner>
+              <ion-spinner name="lines" color="danger"></ion-spinner>
+              <ion-spinner name="ios-small"></ion-spinner>
+              <ion-spinner name="dots"></ion-spinner>
+              <ion-spinner name="circles" class="spinner-energized"></ion-spinner>
+              ion-spinner</h2>
           </ion-card-header>
+          {/* Dimensions set using attributes */}
+          <ion-img width="80" height="80" src='/assets/treehouse.png'></ion-img>
+
         </ion-card>
       </div>
 
