@@ -62,6 +62,41 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface AeIconsComponent {
+      'firstcolor': string;
+      'secondcolor': string;
+    }
+  }
+
+  interface HTMLAeIconsComponentElement extends StencilComponents.AeIconsComponent, HTMLStencilElement {}
+
+  var HTMLAeIconsComponentElement: {
+    prototype: HTMLAeIconsComponentElement;
+    new (): HTMLAeIconsComponentElement;
+  };
+  interface HTMLElementTagNameMap {
+    'ae-icons-component': HTMLAeIconsComponentElement;
+  }
+  interface ElementTagNameMap {
+    'ae-icons-component': HTMLAeIconsComponentElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'ae-icons-component': JSXElements.AeIconsComponentAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AeIconsComponentAttributes extends HTMLAttributes {
+      'firstcolor'?: string;
+      'secondcolor'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AeLogoComponent {
       'firstcolor': string;
       'secondcolor': string;

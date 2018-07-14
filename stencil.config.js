@@ -12,7 +12,7 @@ exports.config = {
     }
   ],
   bundles: [
-    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component', 'ae-spinner-component'] }
+    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component', 'ae-spinner-component','ae-icons-component'] }
   ],
   plugins: [
     sass()
