@@ -1,7 +1,7 @@
 {
-  "name": "ae-logo-component",
+  "name": "ae-factory-components",
   "version": "0.0.5",
-  "description": "Build a component for the [adaept](www.adaept.com) logo",
+  "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
