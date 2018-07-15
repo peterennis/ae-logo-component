@@ -61,12 +61,3 @@ export class AeDevlistComponent {
     );
   }
 }
-
-
-
-    /*
-            <ion-buttons>
-          <ion-button fill='clear' color='primary' onClick={() => this.navigateToTrack(track)}>
-            Play
-                </ion-button>
-        </ion-buttons> */
