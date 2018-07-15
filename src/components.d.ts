@@ -63,8 +63,8 @@ declare global {
 
   namespace StencilComponents {
     interface AeIconsComponent {
-      'firstcolor': string;
-      'secondcolor': string;
+      'name': string;
+      'size': string;
     }
   }
 
@@ -87,8 +87,8 @@ declare global {
   }
   namespace JSXElements {
     export interface AeIconsComponentAttributes extends HTMLAttributes {
-      'firstcolor'?: string;
-      'secondcolor'?: string;
+      'name'?: string;
+      'size'?: string;
     }
   }
 }
