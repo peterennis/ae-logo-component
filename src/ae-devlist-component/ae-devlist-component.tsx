@@ -42,94 +42,31 @@ export class AeDevlistComponent {
     this.onToggle.emit({ visible: this.toggle })
   }
 
-  /*  <ion-card>
-    <ion-item>
-      
-      <ion-label><ion-icon name="pin" slot="start" size="small"></ion-icon>ion-item in a card, icon left, button right</ion-label>
-      <ion-button fill="outline" slot="end">View</ion-button>
-    </ion-item>
-  </ion-card>
-  <ion-card> */
-
   render() {
     return (
-
       <div>
-        <ion-card>
-          <ion-card-header>
-            <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
-            <h2><ion-spinner name=""></ion-spinner>
-              <ion-spinner name="lines" color="danger"></ion-spinner>
-              <ion-spinner name="ios-small"></ion-spinner>
-              <ion-spinner name="dots"></ion-spinner>
-              <ion-spinner name="circles" class="spinner-energized"></ion-spinner>
-              ion-spinner</h2>
-          </ion-card-header>
-          {/* Dimensions set using attributes */}
-          <ion-img width="80" height="80" src='/assets/treehouse.png'></ion-img>
-
-        </ion-card>
+        <ion-list>
+          <ion-item>
+            <ion-avatar slot='start'>
+              <img src='/assets/Giant-Panda.jpg'></img>
+            </ion-avatar>
+            <ion-label>
+              <h2>Giant Finn</h2>
+              <h3>I'm a big deal</h3>
+              <p>Listen, I've had a pretty messed up day...</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
       </div>
-
-
-
-      /*
-                <ion-card>
-                  <ion-card-content>
-                    <a href={this.list[0].url}><img src={this.list[0].imageUrl} /></a>
-                  </ion-card-content>
-                </ion-card>
-              </div> */
-
-      /*        <div class={this.toggle ? 'active' : 'inactive'}>
-                <ion-card>
-                  <ion-card-header>
-                    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                      <ion-card-title>Card Title</ion-card-title>
-                  </ion-card-header>
-      
-                  <ion-card-content>
-                    Keep close to Nature's heart... and break clear away, once in awhile,
-                    and climb a mountain or spend a week in the woods. Wash your spirit clean.
-                  </ion-card-content>
-                </ion-card>
-              </div> */
-
     );
   }
 }
 
 
-/*
+
+    /*
             <ion-buttons>
-              <ion-button fill='clear' color='primary' onClick={() => this.navigateToTrack(track)}>
-                Play
+          <ion-button fill='clear' color='primary' onClick={() => this.navigateToTrack(track)}>
+            Play
                 </ion-button>
-            </ion-buttons> */
-
-/*
-        <div class="jumbotron">
-          <center>
-            <h1 class="display-3">Welcome!</h1>
-            <p class="lead">This is a test for Stencil web components.</p>
-            <button class="btn btn-primary" onClick={() => this.toggleComponent()}>Coding Resources for Web Developers</button>
-          </center>
-        </div>
-
-          <div class="row">
-            {
-              this.list.map(entry =>
-                <div class="col-lg-3 col-md-6 col-sd-12">
-                  <div class="card">
-                    <a href={entry.url}><img class="card-img-top" src={entry.imageUrl} /></a>
-                    <div class="card-body">
-                      <h4 class="card-title">{entry.name}</h4>
-                      <p class="card-text">{entry.description}</p>
-                      <a href={entry.url} class="btn btn-primmary">Go to {entry.name}</a>
-                    </div>
-                  </div>
-                </div>
-              )
-            }
-          </div>
-*/
+        </ion-buttons> */
