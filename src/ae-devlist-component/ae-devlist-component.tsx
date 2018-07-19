@@ -45,6 +45,18 @@ export class AeDevlistComponent {
   render() {
     return (
       <div>
+        <ion-card>
+          <ion-card-header>
+            <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
+            <h2><ion-spinner name=""></ion-spinner>
+              <ion-spinner name="lines" color="danger"></ion-spinner>
+              <ion-spinner name="lines-small"></ion-spinner>
+              <ion-spinner name="dots"></ion-spinner>
+              <ion-spinner name="circles"></ion-spinner>
+              ion-spinner</h2>
+          </ion-card-header>
+        </ion-card>
+
         <ion-list>
           <ion-item>
             <ion-avatar slot='start'>
