@@ -1,1 +1,14 @@
+:root {
+  --text-color: black;
+  --background-color: yellow;
+}
 
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+ion-icon {
+    --color: pink;
+    color: var(--color);
+  }
