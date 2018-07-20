@@ -48,12 +48,24 @@ export class AeDevlistComponent {
         <ion-card>
           <ion-card-header>
             <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
-            <h2><ion-spinner name=""></ion-spinner>
-              <ion-spinner name="lines" color="danger"></ion-spinner>
+            <h2>
+              {/*<!-- Default Spinner -->*/}
+              <ion-spinner></ion-spinner>
+              {/*<!-- Lines -->*/}
+              <ion-spinner name="lines" color="primary"></ion-spinner>
+              {/*<!-- Lines Small -->*/}
               <ion-spinner name="lines-small"></ion-spinner>
+              {/*<!-- Dots -->*/}
               <ion-spinner name="dots"></ion-spinner>
+              {/*<!-- Bubbles -->*/}
+              <ion-spinner name="bubbles"></ion-spinner>
+              {/*<!-- Circles -->*/}
               <ion-spinner name="circles"></ion-spinner>
-              ion-spinner</h2>
+              {/*<!-- Crescent -->*/}
+              <ion-spinner name="crescent"></ion-spinner>
+              {/*<!-- Paused Default Spinner -->*/}
+              <ion-spinner paused></ion-spinner>
+            </h2>
           </ion-card-header>
         </ion-card>
 

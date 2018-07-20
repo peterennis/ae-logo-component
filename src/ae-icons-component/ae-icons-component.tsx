@@ -18,6 +18,14 @@ export class AeIconsComponent {
    */
   componentWillLoad() {
     console.log('Component ae-icons-component is about to be rendered');
+    this.setMyVars;
+  }
+
+  setMyVars() {
+    var bodyStyles = document.body.style;
+    console.log('Component ae-icons-component setMyVars');
+    bodyStyles.setProperty('--text-color', 'white');
+    bodyStyles.setProperty('--background-color', 'black');
   }
 
   render() {
