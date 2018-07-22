@@ -18,7 +18,8 @@ export class AeIconsComponent {
    * componentWillLoad will only be called once.
    */
   componentWillLoad() {
-    console.log('Component ae-icons-component is about to be rendered');
+    //console.log('Component ae-icons-component is about to be rendered');
+    console.log ('name=' + this.name + ' size=' + this.size + ' color=' + this.color)
     this.setMyVars;
   }
 
