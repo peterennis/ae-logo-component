@@ -9,6 +9,7 @@ export class AeIconsComponent {
 
   @Prop() name: string;
   @Prop() size: string;
+  @Prop() color: string;
 
   /**
    * The component is about to load and has not rendered yet.
@@ -30,7 +31,7 @@ export class AeIconsComponent {
 
   render() {
     return (
-      <ion-icon name={this.name} size={this.size}></ion-icon>
+      <ion-icon name={this.name} size={this.size} color={this.color}></ion-icon>
     );
   }
 }
