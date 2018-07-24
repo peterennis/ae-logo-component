@@ -47,12 +47,12 @@ export class AeDevlistComponent {
       <div>
         <ion-card>
           <ion-card-header>
-            <h1><ion-icon name="pin" slot="start" size="large" color="primary"></ion-icon>Ionic Card</h1>
+            <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
             <h2>
               {/*<!-- Default Spinner -->*/}
-              <ion-spinner></ion-spinner>
+              <ion-spinner color="primary"></ion-spinner>
               {/*<!-- Lines -->*/}
-              <ion-spinner name="lines" color="primary"></ion-spinner>
+              <ion-spinner name="lines"></ion-spinner>
               {/*<!-- Lines Small -->*/}
               <ion-spinner name="lines-small"></ion-spinner>
               {/*<!-- Dots -->*/}
@@ -68,6 +68,25 @@ export class AeDevlistComponent {
             </h2>
           </ion-card-header>
         </ion-card>
+
+        {/*<!-- Default -->*/}
+        <ion-badge>99</ion-badge>
+        {/*<!-- Colors -->*/}
+        <ion-badge color="primary">11</ion-badge>
+        <ion-badge color="secondary">22</ion-badge>
+        <ion-badge color="tertiary">33</ion-badge>
+        <ion-badge color="success">44</ion-badge>
+        <ion-badge color="warning">55</ion-badge>
+        <ion-badge color="danger">66</ion-badge>
+        <ion-badge color="light">77</ion-badge>
+        <ion-badge color="medium">88</ion-badge>
+        <ion-badge color="dark">99</ion-badge>
+        {/*<!-- Item with badge on left and right -->*/}
+        <ion-item>
+          <ion-badge slot="start">11</ion-badge>
+          <ion-label>My Item</ion-label>
+          <ion-badge slot="end">22</ion-badge>
+        </ion-item>
 
         <ion-list>
           <ion-item>
