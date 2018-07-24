@@ -15,7 +15,9 @@ ion-spinner {
   margin-bottom: 10px;
 }
 
+/**
 ion-card-header {
   --color: green;
   color: var(--color);
 }
+**/
