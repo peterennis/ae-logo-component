@@ -1,3 +1,20 @@
+/** Using CSS Variables (correctly)
+    Ref: https://codepen.io/MadeByMike/pen/dRoLpJ
+    Ref: https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/
+    Ref: https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/
+**/
+
+* {
+  --color: pink;
+}
+
+ion-icon {
+  color: var(--color);
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/**
 :root {
   --text-color: black;
   --background-color: yellow;
@@ -12,3 +29,4 @@ ion-icon {
     --color: pink;
     color: var(--color);
   }
+**/
