@@ -19,10 +19,3 @@ ion-card-header {
   --color: green;
   color: var(--color);
 }
-
-ion-icon {
-    --color: pink;
-    color: var(--color);
-    width: 48px !important;
-    height: 48px !important;
-  }
