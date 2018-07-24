@@ -1,3 +1,7 @@
+:host {
+  --ion-background-color: #d5ffd5;
+}
+
 ion-spinner {
   width: 32px !important;
   height: 32px !important;
