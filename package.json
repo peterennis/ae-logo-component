@@ -1,6 +1,6 @@
 {
   "name": "ae-factory-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -21,12 +21,11 @@
     "ionicons": "^4.2.4"
   },
   "devDependencies": {
-    "@stencil/core": "~0.10.8",
-    "@stencil/dev-server": "latest",
+    "@stencil/core": "~0.10.9",
     "@stencil/sass": "0.0.5",
     "@stencil/utils": "latest",
-    "@types/jest": "~21.1.1",
-    "jest": "~21.2.1"
+    "@types/jest": "~23.3.0",
+    "jest": "~23.4.1"
   },
   "repository": {
     "type": "git",
