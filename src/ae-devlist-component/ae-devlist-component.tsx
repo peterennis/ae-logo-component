@@ -47,10 +47,10 @@ export class AeDevlistComponent {
       <div>
         <ion-card>
           <ion-card-header>
-            <h1><ion-icon name="pin" slot="start" size="large"></ion-icon>Ionic Card</h1>
+            <h1><ion-icon name="pin" slot="start" size="large" color="primary"></ion-icon>Ionic Card</h1>
             <h2>
               {/*<!-- Default Spinner -->*/}
-              <ion-spinner color="primary"></ion-spinner>
+              <ion-spinner color="danger"></ion-spinner>
               {/*<!-- Lines -->*/}
               <ion-spinner name="lines"></ion-spinner>
               {/*<!-- Lines Small -->*/}
