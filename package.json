@@ -1,6 +1,6 @@
 {
   "name": "ae-factory-components",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
