@@ -88,6 +88,56 @@ export class AeDevlistComponent {
           <ion-badge slot="end">22</ion-badge>
         </ion-item>
 
+        <ion-fab vertical="top" horizontal="end" edge>
+          <ion-fab-button mini color="danger">
+            <ion-icon name="add"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-list side="bottom">
+            <ion-fab-button mini color="primary">
+              <ion-icon name="alarm"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="secondary">
+              <ion-icon name="american-football"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="tertiary">
+              <ion-icon name="aperture"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="success">
+              <ion-icon name="at"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="warning">
+              <ion-icon name="barcode"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="danger">
+              <ion-icon name="baseball"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="light">
+              <ion-icon name="basket"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="medium">
+              <ion-icon name="basketball"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="dark">
+              <ion-icon name="beer"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="primary">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="secondary">
+              <ion-icon name="logo-googleplus"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="tertiary">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="success">
+              <ion-icon name="logo-vimeo"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button mini color="warning">
+              <ion-icon name="bookmark"></ion-icon>
+            </ion-fab-button>
+          </ion-fab-list>
+        </ion-fab>
+
         <ion-list>
           <ion-item>
             <ion-avatar slot='start'>
