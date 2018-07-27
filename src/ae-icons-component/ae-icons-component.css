@@ -15,6 +15,42 @@ ion-icon {
   height: 32px !important;
 }
 
+.ion-color-yellow {
+  --ion-color-base: #ffff00;
+  --ion-color-base-rgb: 255, 255, 0;
+  --ion-color-contrast: #000000;
+  --ion-color-contrast-rgb: 0, 0, 0;
+  --ion-color-shade: #e0e000;
+  --ion-color-tint: #ffff1a;
+}
+
+.ion-color-red {
+  --ion-color-base: #FF0000;
+  --ion-color-base-rgb: 255, 0, 0;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #e00000;
+  --ion-color-tint: #ff1a1a;
+}
+
+.ion-color-green {
+  --ion-color-base: #008000;
+  --ion-color-base-rgb: 0, 128, 0;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #007100;
+  --ion-color-tint: #1a8d1a;
+}
+
+.ion-color-blue {
+  --ion-color-base: #0000FF;
+  --ion-color-base-rgb: 0, 0, 255;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #0000e0;
+  --ion-color-tint: #1a1aff;
+}
+
 /**
 :root {
   --text-color: black;
