@@ -15,6 +15,11 @@ ion-icon {
   height: 32px !important;
 }
 
+ion-icon:hover {
+  background-color: rebeccapurple;
+  box-shadow: inset 0px 0px 0px 2px red;
+}
+
 .ion-color-yellow {
   --ion-color-base: #ffff00;
   --ion-color-base-rgb: 255, 255, 0;
@@ -49,6 +54,15 @@ ion-icon {
   --ion-color-contrast-rgb: 255, 255, 255;
   --ion-color-shade: #0000e0;
   --ion-color-tint: #1a1aff;
+}
+
+.ion-color-white {
+  --ion-color-base: #FFFFFF;
+  --ion-color-base-rgb: 255, 255, 255;
+  --ion-color-contrast: #000000;
+  --ion-color-contrast-rgb: 0, 0, 0;
+  --ion-color-shade: #e0e0e0;
+  --ion-color-tint: #ffffff;
 }
 
 /**
