@@ -105,7 +105,7 @@ ion-icon:hover {
   --ion-color-tint: #8d1a1a;
 }
 
-/* red above */
+/* Red above */
 
 .ion-color-purple {
   --ion-color-base: #800080;
@@ -125,7 +125,7 @@ ion-icon:hover {
   --ion-color-tint: #ff1aff;
 }
 
-/* green above */
+/* Green above */
 
 .ion-color-lime {
   --ion-color-base: #00FF00;
@@ -144,7 +144,7 @@ ion-icon:hover {
   --ion-color-tint: #8d8d1a;
 }
 
-/* yellow above */
+/* Yellow above */
 
 .ion-color-navy {
   --ion-color-base: #000080;
@@ -155,7 +155,7 @@ ion-icon:hover {
   --ion-color-tint: #1a1a8d;
 }
 
-/* blue above */
+/* Blue above */
 
 .ion-color-teal {
   --ion-color-base: #008080;
@@ -175,3 +175,44 @@ ion-icon:hover {
   --ion-color-tint: #1affff;
 }
 
+/* ----------Pink colors---------------- */
+
+/* ----------Red colors---------------- */
+
+/* ----------Orange colors---------------- */
+
+/* ----------Yellow colors---------------- */
+
+/* ----------Brown colors---------------- */
+
+/* ----------Green colors---------------- */
+
+/* ----------Cyan colors---------------- */
+
+/* ----------Blue colors---------------- */
+
+/* ----------Purple, Violet, and Magenta colors---------------- */
+
+/* ----------White colors---------------- */
+
+/* White above */
+
+.ion-color-snow {
+  --ion-color-base: #FFFAFA;
+  --ion-color-base-rgb: 255, 250, 250;
+  --ion-color-contrast: #000000;
+  --ion-color-contrast-rgb: 0, 0, 0;
+  --ion-color-shade: #e0dcdc;
+  --ion-color--tint: #fffbfb;
+}
+
+.ion-color-honeydew {
+  --ion-color-base: #F0FFF0;
+  --ion-color-base-rgb: 240, 255, 240;
+  --ion-color-contrast: #000000;
+  --ion-color-contrast-rgb: 0, 0, 0;
+  --ion-color-shade: #d3e0d3;
+  --ion-color-tint: #f2fff2;
+}
+
+/* ----------Gray and Black colors---------------- */
