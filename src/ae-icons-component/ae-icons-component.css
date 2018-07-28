@@ -20,7 +20,6 @@ ion-icon:hover {
   box-shadow: inset 0px 0px 0px 2px red;
 }
 
-
 .ion-color-red {
   --ion-color-base: #FF0000;
   --ion-color-base-rgb: 255, 0, 0;
@@ -65,20 +64,3 @@ ion-icon:hover {
   --ion-color-shade: #e0e0e0;
   --ion-color-tint: #ffffff;
 }
-
-/**
-:root {
-  --text-color: black;
-  --background-color: yellow;
-}
-
-body {
-  color: var(--text-color);
-  background: var(--background-color);
-}
-
-ion-icon {
-    --color: pink;
-    color: var(--color);
-  }
-**/

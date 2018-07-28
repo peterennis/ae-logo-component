@@ -24,10 +24,7 @@ export class AeIconsComponent {
   }
 
   setMyVars() {
-    var bodyStyles = document.body.style;
     console.log('Component ae-icons-component setMyVars');
-    bodyStyles.setProperty('--text-color', 'white');
-    bodyStyles.setProperty('--background-color', 'black');
   }
 
   render() {
