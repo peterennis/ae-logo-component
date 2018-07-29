@@ -184,6 +184,51 @@ ion-icon:hover {
 
 /* ----------Orange colors---------------- */
 
+.ion-color-orangered {
+  --ion-color-base: #FF4500;
+  --ion-color-base-rgb: 255, 69, 0;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #e03d00;
+  --ion-color-tint: #ff581a;
+}
+
+.ion-color-tomato {
+--ion-color-base: #FF6347;
+--ion-color-base-rgb: 255,99,71;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e0573e;
+--ion-color-tint: #ff7359;
+}
+
+.ion-color-coral {
+--ion-color-base: #FF7F50;
+--ion-color-base-rgb: 255,127,80;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e07046;
+--ion-color-tint: #ff8c62;
+}
+
+.ion-color-darkorange {
+--ion-color-base: #FF8C00;
+--ion-color-base-rgb: 255,140,0;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e07b00;
+--ion-color-tint: #ff981a;
+}
+
+.ion-color-orange {
+--ion-color-base: #FFA500;
+--ion-color-base-rgb: 255,165,0;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e09100;
+--ion-color-tint: #ffae1a;
+}
+
 /* ----------Yellow colors---------------- */
 
 /* ----------Brown colors---------------- */
