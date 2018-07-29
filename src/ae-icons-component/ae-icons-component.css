@@ -180,6 +180,60 @@ ion-icon:hover {
 
 /* ----------Pink colors---------------- */
 
+.ion-color-pink {
+--ion-color-base: #FFC0CB;
+--ion-color-base-rgb: 255,192,203;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e0a9b3;
+--ion-color-tint: #ffc6d0;
+}
+
+.ion-color-lightpink {
+--ion-color-base: #FFB6C1;
+--ion-color-base-rgb: 255,182,193;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e0a0aa;
+--ion-color-tint: #ffbdc7;
+}
+
+.ion-color-hotpink {
+--ion-color-base: #FF69B4;
+--ion-color-base-rgb: 255,105,180;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #e05c9e;
+--ion-color-tint: #ff78bc;
+}
+
+.ion-color-deeppink {
+--ion-color-base: #FF1493;
+--ion-color-base-rgb: 255,20,147;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #e01281;
+--ion-color-tint: #ff2c9e;
+}
+
+.ion-color-palevioletred {
+--ion-color-base: #DB7093;
+--ion-color-base-rgb: 219,112,147;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #c16381;
+--ion-color-tint: #df7e9e;
+}
+
+.ion-color-mediumvioletred {
+--ion-color-base: #C71585;
+--ion-color-base-rgb: 199,21,133;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #af1275;
+--ion-color-tint: #cd2c91;
+}
+
 /* ----------Red colors---------------- */
 
 /* ----------Orange colors---------------- */
