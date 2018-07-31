@@ -761,6 +761,100 @@ ion-icon:hover {
 
 /* ----------Cyan colors---------------- */
 
+/* Aqua above */
+
+.ion-color-cyan {
+--ion-color-base: #00FFFF;
+--ion-color-base-rgb: 0,255,255;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #00e0e0;
+--ion-color-tint: #1affff;
+}
+
+.ion-color-lightcyan {
+--ion-color-base: #E0FFFF;
+--ion-color-base-rgb: 224,255,255;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #c5e0e0;
+--ion-color-tint: #e3ffff;
+}
+
+.ion-color-paleturquoise {
+--ion-color-base: #AFEEEE;
+--ion-color-base-rgb: 175,238,238;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #9ad1d1;
+--ion-color-tint: #b7f0f0;
+}
+
+.ion-color-aquamarine {
+--ion-color-base: #7FFFD4;
+--ion-color-base-rgb: 127,255,212;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #70e0bb;
+--ion-color-tint: #8cffd8;
+}
+
+.ion-color-turquoise {
+--ion-color-base: #40E0D0;
+--ion-color-base-rgb: 64,224,208;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #38c5b7;
+--ion-color-tint: #53e3d5;
+}
+
+.ion-color-mediumturquoise {
+--ion-color-base: #48D1CC;
+--ion-color-base-rgb: 72,209,204;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #3fb8b4;
+--ion-color-tint: #5ad6d1;
+}
+
+.ion-color-darkturquoise {
+--ion-color-base: #00CED1;
+--ion-color-base-rgb: 0,206,209;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #00b5b8;
+--ion-color-tint: #1ad3d6;
+}
+
+.ion-color-lightseagreen {
+--ion-color-base: #20B2AA;
+--ion-color-base-rgb: 32,178,170;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #1c9d96;
+--ion-color-tint: #36bab3;
+}
+
+.ion-color-cadetblue {
+--ion-color-base: #5F9EA0;
+--ion-color-base-rgb: 95,158,160;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #548b8d;
+--ion-color-tint: #6fa8aa;
+}
+
+.ion-color-darkcyan {
+--ion-color-base: #008B8B;
+--ion-color-base-rgb: 0,139,139;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #007a7a;
+--ion-color-tint: #1a9797;
+}
+
+/* Teal above */
+
 /* ----------Blue colors---------------- */
 
 /* ----------Purple, Violet, and Magenta colors---------------- */
