@@ -4,6 +4,7 @@
     Ref: https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/
     Ref: https://medium.freecodecamp.org/everything-you-need-to-know-about-css-variables-c74d922ea855
     Ref: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
+    Ref: https://beta.ionicframework.com/docs/theming/advanced/#color-language
 **/
 
 * {
@@ -856,6 +857,127 @@ ion-icon:hover {
 /* Teal above */
 
 /* ----------Blue colors---------------- */
+
+.ion-color-lightsteelblue {
+--ion-color-base: #B0C4DE;
+--ion-color-rgb: 176,196,222;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #9bacc3;
+--ion-color-tint: #b8cae1;
+}
+
+.ion-color-powderblue {
+--ion-color-base: #B0E0E6;
+--ion-color-rgb: 176,224,230;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #9bc5ca;
+--ion-color-tint: #b8e3e9;
+}
+
+.ion-color-lightblue {
+--ion-color-base: #ADD8E6;
+--ion-color-rgb: 173,216,230;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #98beca;
+--ion-color-tint: #b5dce9;
+}
+
+.ion-color-skyblue {
+--ion-color-base: #87CEEB;
+--ion-color-rgb: 135,206,235;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #77b5cf;
+--ion-color-tint: #93d3ed;
+}
+
+.ion-color-lightskyblue {
+--ion-color-base: #87CEFA;
+--ion-color-rgb: 135,206,250;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #77b5dc;
+--ion-color-tint: #93d3fb;
+}
+
+.ion-color-deepskyblue {
+--ion-color-base: #00BFFF;
+--ion-color-rgb: 0,191,255;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #00a8e0;
+--ion-color-tint: #1ac5ff;
+}
+
+.ion-color-dodgerblue {
+--ion-color-base: #1E90FF;
+--ion-color-rgb: 30,144,255;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #1a7fe0;
+--ion-color-tint: #359bff;
+}
+
+.ion-color-cornflowerblue {
+--ion-color-base: #6495ED;
+--ion-color-rgb: 100,149,237;
+--ion-color-contrast: #000000;
+--ion-color-contrast-rgb: 0,0,0;
+--ion-color-shade: #5883d1;
+--ion-color-tint: #74a0ef;
+}
+
+.ion-color-steelblue {
+--ion-color-base: #4682B4;
+--ion-color-rgb: 70,130,180;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #3e729e;
+--ion-color-tint: #598fbc;
+}
+
+.ion-color-royalblue {
+--ion-color-base: #4169E1;
+--ion-color-rgb: 65,105,225;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #395cc6;
+--ion-color-tint: #5478e4;
+}
+
+/* Blue above */
+
+.ion-color-mediumblue {
+--ion-color-base: #0000CD;
+--ion-color-rgb: 0,0,205;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #0000b4;
+--ion-color-tint: #1a1ad2;
+}
+
+.ion-color-darkblue {
+--ion-color-base: #00008B;
+--ion-color-rgb: 0,0,139;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #00007a;
+--ion-color-tint: #1a1a97;
+}
+
+/* Navy above */
+
+.ion-color-midnightblue {
+--ion-color-base: #191970;
+--ion-color-rgb: 25,25,112;
+--ion-color-contrast: #ffffff;
+--ion-color-contrast-rgb: 255,255,255;
+--ion-color-shade: #161663;
+--ion-color-tint: #30307e;
+}
 
 /* ----------Purple, Violet, and Magenta colors---------------- */
 
