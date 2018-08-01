@@ -1,6 +1,6 @@
 {
-  "name": "ae-factory-components",
-  "version": "0.0.7",
+  "name": "ae-svg-components",
+  "version": "0.0.8",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -29,18 +29,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterennis/ae-logo-component.git"
+    "url": "git+https://github.com/peterennis/ae-svg-components.git"
   },
   "keywords": [
+    "stencil",
+    "svg",
     "logo",
     "component"
   ],
   "author": "adaept",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peterennis/ae-logo-component"
+    "url": "https://github.com/peterennis/ae-svg-components"
   },
-  "homepage": "https://github.com/peterennis/ae-logo-component",
+  "homepage": "https://github.com/peterennis/ae-svg-components",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
