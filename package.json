@@ -1,6 +1,6 @@
 {
   "name": "ae-svg-components",
-  "version": "0.11.0",
+  "version": "0.11.3",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -18,16 +18,17 @@
     "test.watch": "jest --watch"
   },
   "dependencies": {
+    "@stencil/core": "^0.11.3",
+    "@stencil/router": "^0.2.5",
     "ionicons": "^4.3.0"
   },
   "devDependencies": {
-    "@stencil/core": "~0.11.0",
     "@stencil/postcss": "^0.1.0",
     "@stencil/sass": "^0.1.0",
-    "@stencil/utils": "latest",
-    "@types/jest": "~23.3.0",
+    "@stencil/utils": "^0.0.4",
+    "@types/jest": "~23.3.1",
     "autoprefixer": "^9.1.0",
-    "jest": "~23.4.1"
+    "jest": "^23.4.2"
   },
   "repository": {
     "type": "git",
