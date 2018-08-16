@@ -88,7 +88,7 @@ export class AeDevlistComponent {
           <ion-badge slot="end">22</ion-badge>
         </ion-item>
 
-        <ion-fab vertical="top" horizontal="end" edge>
+        <ion-fab vertical="top" horizontal="end" edge slot="fixed">
           <ion-fab-button mini color="danger">
             <ion-icon name="add"></ion-icon>
           </ion-fab-button>
@@ -105,7 +105,7 @@ export class AeDevlistComponent {
             <ion-fab-button mini color="success">
               <ion-icon name="at"></ion-icon>
             </ion-fab-button>
-            <ion-fab-button mini color="warning">
+            {/*<!-- <ion-fab-button mini color="warning">
               <ion-icon name="barcode"></ion-icon>
             </ion-fab-button>
             <ion-fab-button mini color="danger">
@@ -134,7 +134,7 @@ export class AeDevlistComponent {
             </ion-fab-button>
             <ion-fab-button mini color="warning">
               <ion-icon name="bookmark"></ion-icon>
-            </ion-fab-button>
+            </ion-fab-button> -->*/}
           </ion-fab-list>
         </ion-fab>
 
