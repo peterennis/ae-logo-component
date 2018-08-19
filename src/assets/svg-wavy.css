@@ -1,0 +1,81 @@
+circle {
+    fill: none;
+    stroke-width: 2;
+    transform-origin: center center;
+    animation: spin 1.5s linear infinite;
+    stroke-linecap: round;
+}
+
+.odd {
+    stroke: green;
+}
+
+.pair {
+    stroke: red;
+}
+
+.center {
+    fill: green;
+    stroke: red;
+}
+
+circle:nth-child(1) {
+    stroke-dasharray: 20;
+}
+
+circle:nth-child(2) {
+    stroke-dasharray: 40;
+    animation-delay: .05s;
+}
+
+circle:nth-child(3) {
+    stroke-dasharray: 60;
+    animation-delay: .1s;
+}
+
+circle:nth-child(4) {
+    stroke-dasharray: 80;
+    animation-delay: .15s;
+}
+
+circle:nth-child(5) {
+    stroke-dasharray: 100;
+    animation-delay: .2s;
+}
+
+circle:nth-child(6) {
+    stroke-dasharray: 120;
+    animation-delay: .25s;
+}
+
+circle:nth-child(7) {
+    stroke-dasharray: 140;
+    animation-delay: .3s;
+}
+
+circle:nth-child(8) {
+    stroke-dasharray: 160;
+    animation-delay: .35s;
+}
+
+circle:nth-child(9) {
+    stroke-dasharray: 180;
+    animation-delay: .4s;
+}
+
+circle:nth-child(10) {
+    stroke-dasharray: 200;
+    animation-delay: .45s;
+}
+
+@keyframes spin {
+    25% {
+        transform: rotate(88deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-88deg);
+    }
+}

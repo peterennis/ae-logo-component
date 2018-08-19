@@ -698,6 +698,27 @@ export class AeSpinnerComponent {
   </rect>
 </svg>
         )
+        case 'kcosta':
+        return (
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+    <style type="text/css">
+        @import url("/assets/svg-wavy.css");
+    </style>
+</defs>
+			<circle class="odd" cx="50" cy="50" r="5" />
+			<circle class="pair" cx="50" cy="50" r="10" />
+			<circle class="odd" cx="50" cy="50" r="15" />
+			<circle class="pair" cx="50" cy="50" r="20" />
+			<circle class="odd" cx="50" cy="50" r="25" />
+			<circle class="pair" cx="50" cy="50" r="30" />
+			<circle class="odd" cx="50" cy="50" r="35" />
+			<circle class="pair" cx="50" cy="50" r="40" />
+			<circle class="odd" cx="50" cy="50" r="45" />
+			<circle class="pair" cx="50" cy="50" r="52" />
+			<circle class="center" cx="50" cy="50" r="2" />
+		</svg>
+        )
       default:
         return (null);
     }
