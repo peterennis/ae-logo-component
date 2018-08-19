@@ -698,12 +698,13 @@ export class AeSpinnerComponent {
   </rect>
 </svg>
         )
+{/*<!--
         case 'kcosta':
         return (
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
 <defs>
     <style type="text/css">
-        @import url("/assets/svg-wavy.css");
+        @import url("/assets/svg-kcosta.css");
     </style>
 </defs>
 			<circle class="odd" cx="50" cy="50" r="5" />
@@ -751,7 +752,7 @@ export class AeSpinnerComponent {
 	</g>
 </g>
 </svg>
-        )
+-->*/}
       default:
         return (null);
     }
