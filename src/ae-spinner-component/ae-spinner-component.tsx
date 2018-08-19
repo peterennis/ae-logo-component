@@ -683,6 +683,21 @@ export class AeSpinnerComponent {
 	</path>
 </svg>
         )
+        case 'pberry':
+        return (
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-1">
+      <stop offset="0" stop-color={this.color} />
+      <stop offset="50%" stop-color="#108010" />
+      <stop offset="100%" stop-color={this.colortwo} />
+    </linearGradient>
+  </defs>
+  <rect style="transform-origin:50% 50%" x="0" y="0" width="100" height="100" fill="url(#gradient-1)">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="90" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg>
+        )
       default:
         return (null);
     }
