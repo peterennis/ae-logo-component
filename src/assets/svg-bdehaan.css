@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 100%/1.375 sans-serif;
+  /* background-color: #333; */
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100%;
+  height: 100vh;
+  padding-top: 2em;
+}
+.spinner-wrap {
+  margin: auto;
+  width: 46px;
+  height: 66px;
+}
+svg {
+  max-width: 100%;
+}
+.sp-segment {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.sp-segm-8 {
+  animation-name: spin-1;
+}
+.sp-segm-4 {
+  animation-name: spin-2;
+}
+.sp-segm-12 {
+  animation-name: spin-3;
+}
+.sp-segm-3 {
+  animation-name: spin-4;
+}
+.sp-segm-7 {
+  animation-name: spin-5;
+}
+.sp-segm-2 {
+  animation-name: spin-6;
+}
+.sp-segm-13 {
+  animation-name: spin-7;
+}
+.sp-segm-1 {
+  animation-name: spin-8;
+}
+.sp-segm-14 {
+  animation-name: spin-9;
+}
+.sp-segm-9 {
+  animation-name: spin-10;
+}
+.sp-segm-10 {
+  animation-name: spin-11;
+}
+.sp-segm-16 {
+  animation-name: spin-12;
+}
+.sp-segm-15 {
+  animation-name: spin-13;
+}
+.sp-segm-6 {
+  animation-name: spin-14;
+}
+.sp-segm-5 {
+  animation-name: spin-15;
+}
+.sp-segm-11 {
+  animation-name: spin-16;
+}
+@keyframes spin-1 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #415c0a;
+  }
+  50% {
+    fill: #caf425;
+  }
+  62.5% {
+    fill: #415c0a;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-2 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #415c0a;
+  }
+  62.5% {
+    fill: #caf425;
+  }
+  75% {
+    fill: #415c0a;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-3 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #415c0a;
+  }
+  75% {
+    fill: #caf425;
+  }
+  87.5% {
+    fill: #415c0a;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-4 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #415c0a;
+  }
+  87.5% {
+    fill: #caf425;
+  }
+  100% {
+    fill: #415c0a;
+  }
+}
+@keyframes spin-5 {
+  0% {
+    fill: #caf425;
+  }
+  12.5% {
+    fill: #415c0a;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #415c0a;
+  }
+}
+@keyframes spin-6 {
+  0% {
+    fill: #415c0a;
+  }
+  12.5% {
+    fill: #caf425;
+  }
+  25% {
+    fill: #415c0a;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-7 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #415c0a;
+  }
+  25% {
+    fill: #caf425;
+  }
+  37.5% {
+    fill: #415c0a;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-8 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #415c0a;
+  }
+  37.5% {
+    fill: #caf425;
+  }
+  50% {
+    fill: #415c0a;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-9 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #415c0a;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-10 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #415c0a;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-11 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #415c0a;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-12 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #415c0a;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-13 {
+  0% {
+    fill: #415c0a;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-14 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #415c0a;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-15 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #415c0a;
+  }
+  37.5% {
+    fill: #0d1a00;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
+@keyframes spin-16 {
+  0% {
+    fill: #0d1a00;
+  }
+  12.5% {
+    fill: #0d1a00;
+  }
+  25% {
+    fill: #0d1a00;
+  }
+  37.5% {
+    fill: #415c0a;
+  }
+  50% {
+    fill: #0d1a00;
+  }
+  62.5% {
+    fill: #0d1a00;
+  }
+  75% {
+    fill: #0d1a00;
+  }
+  87.5% {
+    fill: #0d1a00;
+  }
+  100% {
+    fill: #0d1a00;
+  }
+}
