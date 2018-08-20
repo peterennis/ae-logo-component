@@ -8,13 +8,16 @@ import * as autoprefixer from 'autoprefixer';
 export const config: Config = {
   namespace: 'adaept',
   bundles: [
-    { components: ['ae-logo-component', 'ae-devlist-component', 'ae-svg-component', 'ae-spinner-component', 'ae-icons-component'] }
+    {
+      components: ['ae-devlist-component', 'ae-icons-component', 'ae-logo-component', 'ae-spinner-component',
+        'ae-svg-component', 'ae-svgcss-component']
+    }
   ],
   outputTargets: [
     {
       type: 'www',
     }
-  ],  
+  ],
   globalStyle: 'src/global/app.css',
   plugins: [
     sass(),
