@@ -1,4 +1,5 @@
 // Ref: http://samherbert.net/svg-loaders/
+// Ref: https://codepen.io/nikhil8krishnan/pen/rVoXJa
 // Ref: https://codegeekz.com/best-css-svg-loaders-and-spinners/
 // Ref: https://codepen.io/chrisgannon/post/seven-stages-of-svg
 // Ref: https://codepen.io/deineko/pen/yyWgEW
