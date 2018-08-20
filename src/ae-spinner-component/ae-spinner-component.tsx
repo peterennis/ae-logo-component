@@ -683,7 +683,7 @@ export class AeSpinnerComponent {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 128 128" space="preserve">
             <g>
-              <path fill="#c0ddc4" fill-opacity="0.31" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" />
+              <path fill={this.colortwo} fill-opacity="0.31" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" />
               <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(45 64 64)" />
               <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(90 64 64)" />
               <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(135 64 64)" />
@@ -692,6 +692,26 @@ export class AeSpinnerComponent {
               <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(270 64 64)" />
               <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(315 64 64)" />
               <animateTransform attributeName="transform" type="rotate" values="0 64 64;45 64 64;90 64 64;135 64 64;180 64 64;225 64 64;270 64 64;315 64 64" calcMode="discrete" dur="1040ms" repeatCount="indefinite"></animateTransform>
+            </g>
+          </svg>
+        )
+      case 'sharpedges126':
+        return (
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 128 128" space="preserve">
+            <g>
+              <path fill="#ca6bbb" fill-opacity="1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(30 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(60 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(90 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(120 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(150 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(180 64 64)" />
+              <path fill="#150b13" fill-opacity="0.1" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(210 64 64)" />
+              <path fill="#281525" fill-opacity="0.2" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(240 64 64)" />
+              <path fill="#512b4b" fill-opacity="0.4" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(270 64 64)" />
+              <path fill="#794070" fill-opacity="0.6" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(300 64 64)" />
+              <path fill="#a25696" fill-opacity="0.8" d="M70.48 35.8l-6.16-6.24-6.16 6.26L64.32.88z" transform="rotate(330 64 64)" />
+              <animateTransform attributeName="transform" type="rotate" values="0 64 64;30 64 64;60 64 64;90 64 64;120 64 64;150 64 64;180 64 64;210 64 64;240 64 64;270 64 64;300 64 64;330 64 64" calcMode="discrete" dur="1080ms" repeatCount="indefinite"></animateTransform>
             </g>
           </svg>
         )
