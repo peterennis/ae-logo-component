@@ -1,12 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
+} body {
   font: 100%/1.375 sans-serif;
-  /* background-color: #333; */
-}
+background-color: #333;
+} 
 .container {
   position: relative;
   margin: 0 auto;
@@ -14,14 +13,14 @@ body {
   height: 100vh;
   padding-top: 2em;
 }
+svg {
+  max-width: 100%;
+}
 .spinner-wrap {
   margin: auto;
   width: 46px;
   height: 66px;
-}
-svg {
-  max-width: 100%;
-}
+} */
 .sp-segment {
   animation-duration: 1s;
   animation-iteration-count: infinite;
