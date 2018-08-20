@@ -679,6 +679,22 @@ export class AeSpinnerComponent {
               <animateTransform attributeName="transform" type="rotate" from="0 64 64" to="-90 64 64" dur="2400ms" repeatCount="indefinite"></animateTransform></path>
           </svg>
         )
+      case 'flower75':
+        return (
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 128 128" space="preserve">
+            <g>
+              <path fill="#c0ddc4" fill-opacity="0.31" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(45 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(90 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(135 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(180 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(225 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(270 64 64)" />
+              <path fill={this.color} fill-opacity="1" d="M64.33.25a16 16 0 0 1 16 16c0 4.46-4.93 11.74-9.1 14.62-5.28 3.62-6.56 17.7-6.56 17.7s-.9-13.92-7.24-18.03c-5.4-3.5-9.1-9.8-9.1-14.3a16 16 0 0 1 16-16z" transform="rotate(315 64 64)" />
+              <animateTransform attributeName="transform" type="rotate" values="0 64 64;45 64 64;90 64 64;135 64 64;180 64 64;225 64 64;270 64 64;315 64 64" calcMode="discrete" dur="1040ms" repeatCount="indefinite"></animateTransform>
+            </g>
+          </svg>
+        )
       default:
         return (null);
     }
