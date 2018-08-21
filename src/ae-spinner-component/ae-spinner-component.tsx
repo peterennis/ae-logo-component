@@ -203,7 +203,7 @@ export class AeSpinnerComponent {
         )
       case 'grid':
         return (
-          <svg width="105" height="105" viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
+          <svg viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
             <circle cx="12.5" cy="12.5" r="12.5">
               <animate attributeName="fill-opacity"
                 begin="0s" dur="1s"
@@ -262,7 +262,7 @@ export class AeSpinnerComponent {
         )
       case 'spindot':
         return (
-          <svg width="58" height="58" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
               <g transform="translate(2 1)" stroke={this.color} stroke-width="1.5">
                 <circle cx="42.601" cy="11.462" r="5" fill-opacity="1" fill="red">
@@ -319,7 +319,7 @@ export class AeSpinnerComponent {
         )
       case 'tridot':
         return (
-          <svg width="57" height="57" viewBox="0 0 57 57" xmlns="http://www.w3.org/2000/svg" stroke={this.color}>
+          <svg viewBox="0 0 57 57" xmlns="http://www.w3.org/2000/svg" stroke={this.color}>
             <g fill="none" fill-rule="evenodd">
               <g transform="translate(1 1)" stroke-width="2.5">
                 <circle cx="5" cy="50" r="5">
@@ -367,7 +367,7 @@ export class AeSpinnerComponent {
         )
       case 'audio':
         return (
-          <svg width="55" height="80" viewBox="0 0 55 80" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
+          <svg viewBox="0 0 55 80" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
             <g transform="matrix(1 0 0 -1 0 80)">
               <rect width="10" height="20" rx="3">
                 <animate attributeName="height"
@@ -398,7 +398,7 @@ export class AeSpinnerComponent {
         )
       case 'spikes':
         return (
-          <svg width="135" height="140" viewBox="0 0 135 140" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
+          <svg viewBox="0 0 135 140" xmlns="http://www.w3.org/2000/svg" fill={this.color}>
             <rect y="10" width="15" height="120" rx="6">
               <animate attributeName="height"
                 begin="0.5s" dur="1s"
@@ -453,8 +453,7 @@ export class AeSpinnerComponent {
         )
       case 'threelegs':
         return (
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 50 50;" space="preserve">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 50 50;" space="preserve">
             <rect x="0" y="0" width="4" height="7" fill={this.color}>
               <animateTransform attributeType="xml"
                 attributeName="transform" type="scale"
@@ -613,7 +612,7 @@ export class AeSpinnerComponent {
         )
       case 'deineko':
         return (
-          <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="m24preloader">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="m24preloader">
             <path d="M0 50A50 50 0 0 1 50 0L50 50L0 50" fill="yellow" opacity="0.85">
               <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="8s" repeatCount="indefinite"></animateTransform>
             </path>
@@ -632,7 +631,7 @@ export class AeSpinnerComponent {
         )
       case 'radar42':
         return (
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100px" height="100px" viewBox="0 0 128 128" space="preserve">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 128 128" space="preserve">
             <path fill={this.color} fill-opacity="1" class="cls-1" d="M64 127.75a64 64 0 1 1 64-64 64 64 0 0 1-64 64zM125.72 65h-13.75A47.86 47.86 0 0 1 65 111.73v13.74A61.73 61.73 0 0 0 125.72 65zM65 65v21.95A23.2 23.2 0 0 0 87.2 65H65zm22.2-2A23.22 23.22 0 0 0 65 40.55V63h22.23zm-46.37 2A23.2 23.2 0 0 0 63 86.95V65H40.8zM63 63V40.55A23.22 23.22 0 0 0 40.78 63H63zm-24.2 2H18.3A45.85 45.85 0 0 0 63 109.72V88.95A25.2 25.2 0 0 1 38.8 65zm0-2A25.2 25.2 0 0 1 63 38.55V18.03A45.85 45.85 0 0 0 18.28 63h20.5zM65 38.55A25.2 25.2 0 0 1 89.2 63h20.77A45.85 45.85 0 0 0 65 18.03v20.52zM89.2 65A25.2 25.2 0 0 1 65 88.95v20.77A45.85 45.85 0 0 0 109.97 65H89.2zM63 125.47v-13.75A47.86 47.86 0 0 1 16.28 65h-14A61.73 61.73 0 0 0 63 125.47zM2.27 63h14A47.86 47.86 0 0 1 63 16.03v-14A61.73 61.73 0 0 0 2.27 63zM65 2.02v14A47.86 47.86 0 0 1 111.98 63h13.75A61.73 61.73 0 0 0 65 2.02z" />
             <g>
               <linearGradient id="linear-gradient">
@@ -650,7 +649,7 @@ export class AeSpinnerComponent {
         )
       case 'triangles8':
         return (
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100px" height="100px" viewBox="0 0 128 128" space="preserve">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 128 128" space="preserve">
             <g>
               <path d="M71 39.2V.4a63.6 63.6 0 0 1 33.96 14.57L77.68 42.24a25.53 25.53 0 0 0-6.7-3.03z" fill="#359444" fill-opacity="1" />
               <path d="M71 39.2V.4a63.6 63.6 0 0 1 33.96 14.57L77.68 42.24a25.53 25.53 0 0 0-6.7-3.03z" fill="#e7f2e9" fill-opacity="0.12" transform="rotate(45 64 64)" />
