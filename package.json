@@ -20,7 +20,8 @@
   "dependencies": {
     "@stencil/core": "^0.12.0-1",
     "@stencil/router": "^0.2.5",
-    "ionicons": "^4.3.0"
+    "ionicons": "^4.3.0",
+    "polymorph-js": "^0.2.2"
   },
   "devDependencies": {
     "@stencil/postcss": "^0.1.0",
