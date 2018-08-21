@@ -92,7 +92,7 @@ export class AeSpinnerComponent {
         );
       case 'fadinglines':
         return (
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100px" height="100px" viewBox="0 0 128 128" xml:space="preserve">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100px" height="100px" viewBox="0 0 128 128" space="preserve">
             <g>
               <path d="M59.6 0h8v40h-8V0z" fill="#ca6bbb" fill-opacity="1"/>
               <path d="M59.6 0h8v40h-8V0z" fill="#281525" fill-opacity="0.2" transform="rotate(30 64 64)"/>
