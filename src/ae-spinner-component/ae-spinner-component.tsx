@@ -30,10 +30,9 @@ export class AeSpinnerComponent {
         )
       case 'circle':
         return (
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xmlSpace="preserve">
-            <path fill={this.color} d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z" transform="rotate(360 -4.05439e-8 -4.05439e-8)">
-              <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform>
-            </path>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background:0 0">
+            <circle cx="50" cy="50" fill="none" stroke={this.color} stroke-width="10" r="40" stroke-dasharray="188.496 64.832" transform="rotate(59.81 50 50)">
+            <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"/></circle>
           </svg>
         );
       case 'circthree':
@@ -91,12 +90,6 @@ export class AeSpinnerComponent {
             </rect>
           </svg>
         );
-      case 'android':
-        return (
-          <svg class="spinner-android" viewBox="0 0 50 50">
-            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke={this.color} stroke-width="5"></circle>
-          </svg>
-        )
       case 'ios':
         return (
           <svg class="spinner-ios" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill={this.color}>
