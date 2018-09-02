@@ -1,6 +1,6 @@
 {
   "name": "ae-svg-components",
-  "version": "0.12.0-4",
+  "version": "0.12.4",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
