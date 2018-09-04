@@ -4,15 +4,15 @@
 */
 /* tslint:disable */
 
-import { JSXElements } from '@stencil/core';
+import '@stencil/core';
 
 
 
 
-export namespace StencilComponents {
+export namespace Components {
 
   interface AeDevlistComponent {}
-  interface AeDevlistComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeDevlistComponentAttributes extends StencilHTMLAttributes {
     'onOnToggle'?: (event: CustomEvent) => void;
   }
 
@@ -21,7 +21,7 @@ export namespace StencilComponents {
     'name': string;
     'size': string;
   }
-  interface AeIconsComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeIconsComponentAttributes extends StencilHTMLAttributes {
     'color'?: string;
     'name'?: string;
     'size'?: string;
@@ -31,7 +31,7 @@ export namespace StencilComponents {
     'firstcolor': string;
     'secondcolor': string;
   }
-  interface AeLogoComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeLogoComponentAttributes extends StencilHTMLAttributes {
     'firstcolor'?: string;
     'secondcolor'?: string;
   }
@@ -41,7 +41,7 @@ export namespace StencilComponents {
     'colortwo': string;
     'type': string;
   }
-  interface AeSpinnerComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeSpinnerComponentAttributes extends StencilHTMLAttributes {
     'color'?: string;
     'colortwo'?: string;
     'type'?: string;
@@ -52,7 +52,7 @@ export namespace StencilComponents {
     'url': string;
     'wide': string;
   }
-  interface AeSvgComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeSvgComponentAttributes extends StencilHTMLAttributes {
     'id'?: string;
     'url'?: string;
     'wide'?: string;
@@ -63,55 +63,64 @@ export namespace StencilComponents {
     'colortwo': string;
     'type': string;
   }
-  interface AeSvgcssComponentAttributes extends JSXElements.HTMLAttributes {
+  interface AeSvgcssComponentAttributes extends StencilHTMLAttributes {
     'color'?: string;
     'colortwo'?: string;
     'type'?: string;
   }
 }
 
-export interface LocalIntrinsicElements {
-  'ae-devlist-component': StencilComponents.AeDevlistComponentAttributes;
-  'ae-icons-component': StencilComponents.AeIconsComponentAttributes;
-  'ae-logo-component': StencilComponents.AeLogoComponentAttributes;
-  'ae-spinner-component': StencilComponents.AeSpinnerComponentAttributes;
-  'ae-svg-component': StencilComponents.AeSvgComponentAttributes;
-  'ae-svgcss-component': StencilComponents.AeSvgcssComponentAttributes;
-}
-
 declare global {
+  interface StencilElementInterfaces {
+    'AeDevlistComponent': Components.AeDevlistComponent;
+    'AeIconsComponent': Components.AeIconsComponent;
+    'AeLogoComponent': Components.AeLogoComponent;
+    'AeSpinnerComponent': Components.AeSpinnerComponent;
+    'AeSvgComponent': Components.AeSvgComponent;
+    'AeSvgcssComponent': Components.AeSvgcssComponent;
+  }
 
-  interface HTMLAeDevlistComponentElement extends StencilComponents.AeDevlistComponent, HTMLStencilElement {}
+  interface StencilIntrinsicElements {
+    'ae-devlist-component': Components.AeDevlistComponentAttributes;
+    'ae-icons-component': Components.AeIconsComponentAttributes;
+    'ae-logo-component': Components.AeLogoComponentAttributes;
+    'ae-spinner-component': Components.AeSpinnerComponentAttributes;
+    'ae-svg-component': Components.AeSvgComponentAttributes;
+    'ae-svgcss-component': Components.AeSvgcssComponentAttributes;
+  }
+
+
+  interface HTMLAeDevlistComponentElement extends Components.AeDevlistComponent, HTMLStencilElement {}
   var HTMLAeDevlistComponentElement: {
     prototype: HTMLAeDevlistComponentElement;
     new (): HTMLAeDevlistComponentElement;
   };
 
-  interface HTMLAeIconsComponentElement extends StencilComponents.AeIconsComponent, HTMLStencilElement {}
+  interface HTMLAeIconsComponentElement extends Components.AeIconsComponent, HTMLStencilElement {}
   var HTMLAeIconsComponentElement: {
     prototype: HTMLAeIconsComponentElement;
     new (): HTMLAeIconsComponentElement;
   };
 
-  interface HTMLAeLogoComponentElement extends StencilComponents.AeLogoComponent, HTMLStencilElement {}
+  interface HTMLAeLogoComponentElement extends Components.AeLogoComponent, HTMLStencilElement {}
   var HTMLAeLogoComponentElement: {
     prototype: HTMLAeLogoComponentElement;
     new (): HTMLAeLogoComponentElement;
   };
 
-  interface HTMLAeSpinnerComponentElement extends StencilComponents.AeSpinnerComponent, HTMLStencilElement {}
+  interface HTMLAeSpinnerComponentElement extends Components.AeSpinnerComponent, HTMLStencilElement {}
   var HTMLAeSpinnerComponentElement: {
     prototype: HTMLAeSpinnerComponentElement;
     new (): HTMLAeSpinnerComponentElement;
   };
 
-  interface HTMLAeSvgComponentElement extends StencilComponents.AeSvgComponent, HTMLStencilElement {}
+  interface HTMLAeSvgComponentElement extends Components.AeSvgComponent, HTMLStencilElement {}
   var HTMLAeSvgComponentElement: {
     prototype: HTMLAeSvgComponentElement;
     new (): HTMLAeSvgComponentElement;
   };
 
-  interface HTMLAeSvgcssComponentElement extends StencilComponents.AeSvgcssComponent, HTMLStencilElement {}
+  interface HTMLAeSvgcssComponentElement extends Components.AeSvgcssComponent, HTMLStencilElement {}
   var HTMLAeSvgcssComponentElement: {
     prototype: HTMLAeSvgcssComponentElement;
     new (): HTMLAeSvgcssComponentElement;
@@ -134,18 +143,14 @@ declare global {
     'ae-svg-component': HTMLAeSvgComponentElement;
     'ae-svgcss-component': HTMLAeSvgcssComponentElement;
   }
-}
 
 
-import { DefaultIntrinsicElements } from '@stencil/core';
-
-declare global {
   export namespace JSX {
     export interface Element {}
-    export interface IntrinsicElements extends LocalIntrinsicElements, DefaultIntrinsicElements {
+    export interface IntrinsicElements extends StencilIntrinsicElements {
       [tagName: string]: any;
     }
   }
-  export interface HTMLAttributes extends JSXElements.HTMLAttributes {}
-}
+  export interface HTMLAttributes extends StencilHTMLAttributes {}
 
+}

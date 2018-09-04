@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
 import { postcss } from '@stencil/postcss';
-import * as autoprefixer from 'autoprefixer';
+import autoprefixer from 'autoprefixer';
 
 // https://stenciljs.com/docs/config
 
