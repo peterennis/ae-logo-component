@@ -18,19 +18,12 @@
     "test.watch": "jest --watch"
   },
   "dependencies": {
-    "@stencil/core": "^0.13.0-12",
-    "@stencil/router": "^0.2.6",
-    "ionicons": "^4.4.3",
-    "polymorph-js": "^0.2.2",
-    "scroll-down-icon": "^1.0.6"
+    "@stencil/core": "^0.13.0-12"
   },
   "devDependencies": {
     "@stencil/postcss": "^0.1.0",
     "@stencil/sass": "^0.1.0",
-    "@stencil/utils": "^0.0.4",
-    "@types/jest": "~23.3.2",
     "autoprefixer": "^9.1.5",
-    "jest": "^23.6.0",
     "workbox-build": "3.4.1"
   },
   "repository": {
