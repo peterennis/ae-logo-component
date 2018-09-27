@@ -88,7 +88,7 @@ export class AeDevlistComponent {
           <ion-badge slot="end">22</ion-badge>
         </ion-item>
 
-        <ion-fab vertical="top" horizontal="end" edge slot="fixed">
+        <ion-fab vertical="top" horizontal="end" slot="fixed">
           <ion-fab-button mini color="danger">
             <ion-icon name="add"></ion-icon>
           </ion-fab-button>
