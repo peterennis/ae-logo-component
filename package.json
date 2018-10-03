@@ -1,6 +1,6 @@
 {
   "name": "ae-svg-components",
-  "version": "0.13.1",
+  "version": "0.14.0-0",
   "description": "Build components for [adaept](www.adaept.com)",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
@@ -14,15 +14,15 @@
     "dev": "stencil build --dev --watch --serve",
     "serve": "stencil-dev-server",
     "start": "npm run dev",
-    "test": "jest",
-    "test.watch": "jest --watch"
+    "test": "stencil test --spec",
+    "test.watch": "stencil test --spec --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "^0.13.1"
+    "@stencil/core": "^0.14.0-0"
   },
   "devDependencies": {
     "@stencil/postcss": "^0.1.0",
-    "@stencil/sass": "^0.1.0",
+    "@stencil/sass": "^0.1.1",
     "autoprefixer": "^9.1.5",
     "workbox-build": "3.4.1"
   },
@@ -41,18 +41,5 @@
   "bugs": {
     "url": "https://github.com/peterennis/ae-svg-components"
   },
-  "homepage": "https://github.com/peterennis/ae-svg-components",
-  "jest": {
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json",
-      "jsx"
-    ]
-  }
+  "homepage": "https://github.com/peterennis/ae-svg-components"
 }
