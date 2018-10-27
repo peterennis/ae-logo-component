@@ -3,7 +3,7 @@ import { Component, Event, EventEmitter, State } from '@stencil/core';
 @Component({
   tag: 'ae-devlist-component',
   styleUrl: 'ae-devlist-component.css',
-  shadow: true
+  shadow: false
 })
 export class AeDevlistComponent {
 
