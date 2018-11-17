@@ -96,6 +96,8 @@ export class AeDevlistComponent {
           <ion-badge slot="end">22</ion-badge>
         </ion-item>
 
+        {/*<!-- FAB not working with shadow dom, disable for now -->*/}
+        {/*<!--
         <ion-fab vertical="top" horizontal="end" slot="fixed">
           <ion-fab-button mini color="danger">
             <ion-icon name="add" />
@@ -113,7 +115,7 @@ export class AeDevlistComponent {
             <ion-fab-button mini color="success">
               <ion-icon name="at" />
             </ion-fab-button>
-            {/*<!-- <ion-fab-button mini color="warning">
+            <ion-fab-button mini color="warning">
               <ion-icon name="barcode"></ion-icon>
             </ion-fab-button>
             <ion-fab-button mini color="danger">
@@ -142,9 +144,10 @@ export class AeDevlistComponent {
             </ion-fab-button>
             <ion-fab-button mini color="warning">
               <ion-icon name="bookmark"></ion-icon>
-            </ion-fab-button> -->*/}
+            </ion-fab-button>
           </ion-fab-list>
         </ion-fab>
+      -->*/}
 
         <ion-list>
           <ion-item>
