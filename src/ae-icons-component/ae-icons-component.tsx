@@ -7,8 +7,8 @@ import { Component, Prop } from '@stencil/core';
 })
 export class AeIconsComponent {
 
+  @Prop() aesize: string;
   @Prop() name: string;
-  @Prop() size: string;
   @Prop() color: string;
 
   /**
@@ -19,17 +19,17 @@ export class AeIconsComponent {
    */
   componentWillLoad() {
     //console.log('Component ae-icons-component is about to be rendered');
-    console.log ('name=' + this.name + ' size=' + this.size + ' color=' + this.color)
-    this.setMyVars;
+    console.log('aesize=' + this.aesize + ' name=' + this.name + ' color=' + this.color)
+    //this.setMyVars();
   }
 
   setMyVars() {
-    console.log('Component ae-icons-component setMyVars');
+    //console.log('Component ae-icons-component setMyVars');
   }
 
   render() {
     return (
-      <ion-icon name={this.name} size={this.size} color={this.color}></ion-icon>
+      <ion-icon class={this.aesize} name={this.name} color={this.color}></ion-icon>
     );
   }
 }
