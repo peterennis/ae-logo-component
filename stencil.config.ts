@@ -7,6 +7,7 @@ import autoprefixer from 'autoprefixer';
 
 export const config: Config = {
   namespace: 'adaept',
+  preamble: "adaept svg components",
   bundles: [
     {
       components: ['ae-devlist-component', 'ae-icons-component', 'ae-logo-component', 'ae-spinner-component',

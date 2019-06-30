@@ -11,7 +11,7 @@ export class AeSvgComponent {
   @Prop() wide: string;
   @Prop() url: string;
 
-  /**
+  /*
    * The component is about to load and has not rendered yet.
    * This is the best place to make any data updates
    * before the first render.
