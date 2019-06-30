@@ -25,7 +25,7 @@ export namespace Components {
     'type': string;
   }
   interface AeSvgComponent {
-    'id': string;
+    'aeid': string;
     'url': string;
     'wide': string;
   }
@@ -103,7 +103,7 @@ declare namespace LocalJSX {
     'type'?: string;
   }
   interface AeSvgComponent extends JSXBase.HTMLAttributes<HTMLAeSvgComponentElement> {
-    'id'?: string;
+    'aeid'?: string;
     'url'?: string;
     'wide'?: string;
   }
