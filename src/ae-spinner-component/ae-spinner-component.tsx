@@ -5,7 +5,7 @@
 // Ref: https://codepen.io/deineko/pen/yyWgEW
 // Ref: https://github.com/alexk111/SVG-Morpheus/issues/2
 
-import { Component, Prop } from "@stencil/core";
+import { h, Component, Prop } from "@stencil/core";
 
 @Component({
   tag: "ae-spinner-component",
@@ -65,7 +65,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
             preserveAspectRatio="xMidYMid"
-            style="background:0 0"
+            // style="background:0 0"
           >
             <circle
               cx="50"
@@ -92,14 +92,14 @@ export class AeSpinnerComponent {
         );
       case "circthree":
         return (
-          <svg
+          <svg 
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
             viewBox="0 0 100 100"
             enable-background="new 0 0 100 100"
-            space="preserve"
+            // space="preserve"
           >
             <path
               fill={this.color}
@@ -157,7 +157,7 @@ export class AeSpinnerComponent {
             width="24px"
             height="30px"
             viewBox="0 0 24 30"
-            style="enable-background:new 0 0 50 50;"
+            // style="enable-background:new 0 0 50 50;"
             xmlSpace="preserve"
           >
             <rect
@@ -269,7 +269,7 @@ export class AeSpinnerComponent {
             width="100px"
             height="100px"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <g>
               <path d="M59.6 0h8v40h-8V0z" fill="#ca6bbb" fill-opacity="1" />
@@ -956,8 +956,8 @@ export class AeSpinnerComponent {
             x="0px"
             y="0px"
             viewBox="0 0 24 24"
-            style="enable-background:new 0 0 50 50;"
-            space="preserve"
+            // style="enable-background:new 0 0 50 50;"
+            // space="preserve"
           >
             <rect x="0" y="0" width="4" height="7" fill={this.color}>
               <animateTransform
@@ -1003,7 +1003,7 @@ export class AeSpinnerComponent {
             y="0px"
             viewBox="0 0 100 100"
             enable-background="new 0 0 100 100"
-            space="preserve"
+            // space="preserve"
           >
             <circle
               fill="none"
@@ -1108,7 +1108,7 @@ export class AeSpinnerComponent {
             y="0px"
             viewBox="0 0 100 100"
             enable-background="new 0 0 100 100"
-            space="preserve"
+            // space="preserve"
           >
             <circle
               fill="none"
@@ -1194,7 +1194,7 @@ export class AeSpinnerComponent {
             y="0px"
             viewBox="0 0 90 90"
             enable-background="new 0 0 100 100"
-            space="preserve"
+            // space="preserve"
           >
             <rect
               fill={this.color}
@@ -1310,7 +1310,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <path
               fill={this.color}
@@ -1365,7 +1365,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <g>
               <path
@@ -1449,7 +1449,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <path
               fill={this.colortwo}
@@ -1501,7 +1501,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <g>
               <path
@@ -1568,7 +1568,7 @@ export class AeSpinnerComponent {
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
             viewBox="0 0 128 128"
-            space="preserve"
+            // space="preserve"
           >
             <g>
               <path
@@ -1662,7 +1662,7 @@ export class AeSpinnerComponent {
             x="0px"
             y="0px"
             viewBox="0 0 80 80"
-            space="preserve"
+            // space="preserve"
           >
             <path
               fill={this.color}
@@ -1724,7 +1724,7 @@ export class AeSpinnerComponent {
               </linearGradient>
             </defs>
             <rect
-              style="transform-origin:50% 50%"
+              // style="transform-origin:50% 50%"
               x="0"
               y="0"
               width="100"

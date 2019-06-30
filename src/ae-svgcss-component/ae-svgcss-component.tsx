@@ -1,4 +1,4 @@
-import { Component, Prop } from "@stencil/core";
+import { h, Component, Prop } from "@stencil/core";
 
 @Component({
   tag: "ae-svgcss-component",
@@ -48,7 +48,7 @@ export class AeSvgcssComponent {
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 70 100"
-            space="preserve"
+          // space="preserve"
           >
             <defs>
               <style type="text/css">
