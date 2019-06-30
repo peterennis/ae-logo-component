@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@stencil/core": "1.1.2",
-    "@stencil/router": "1.0.1"
+    "@stencil/router": "1.0.1",
+    "ionicons": "^4.6.1"
   },
   "devDependencies": {
     "@stencil/postcss": "1.0.1",
