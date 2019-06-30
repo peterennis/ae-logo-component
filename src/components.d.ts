@@ -5,90 +5,38 @@
  */
 
 
-import '@stencil/core';
-
-
+import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-
   interface AeDevlistComponent {}
-  interface AeDevlistComponentAttributes extends StencilHTMLAttributes {
-    'onOnToggle'?: (event: CustomEvent) => void;
-  }
-
   interface AeIconsComponent {
     'aesize': string;
     'color': string;
     'name': string;
   }
-  interface AeIconsComponentAttributes extends StencilHTMLAttributes {
-    'aesize'?: string;
-    'color'?: string;
-    'name'?: string;
-  }
-
   interface AeLogoComponent {
     'firstcolor': string;
     'secondcolor': string;
   }
-  interface AeLogoComponentAttributes extends StencilHTMLAttributes {
-    'firstcolor'?: string;
-    'secondcolor'?: string;
-  }
-
   interface AeSpinnerComponent {
     'color': string;
     'colortwo': string;
     'type': string;
   }
-  interface AeSpinnerComponentAttributes extends StencilHTMLAttributes {
-    'color'?: string;
-    'colortwo'?: string;
-    'type'?: string;
-  }
-
   interface AeSvgComponent {
     'id': string;
     'url': string;
     'wide': string;
   }
-  interface AeSvgComponentAttributes extends StencilHTMLAttributes {
-    'id'?: string;
-    'url'?: string;
-    'wide'?: string;
-  }
-
   interface AeSvgcssComponent {
     'color': string;
     'colortwo': string;
     'type': string;
   }
-  interface AeSvgcssComponentAttributes extends StencilHTMLAttributes {
-    'color'?: string;
-    'colortwo'?: string;
-    'type'?: string;
-  }
 }
 
 declare global {
-  interface StencilElementInterfaces {
-    'AeDevlistComponent': Components.AeDevlistComponent;
-    'AeIconsComponent': Components.AeIconsComponent;
-    'AeLogoComponent': Components.AeLogoComponent;
-    'AeSpinnerComponent': Components.AeSpinnerComponent;
-    'AeSvgComponent': Components.AeSvgComponent;
-    'AeSvgcssComponent': Components.AeSvgcssComponent;
-  }
-
-  interface StencilIntrinsicElements {
-    'ae-devlist-component': Components.AeDevlistComponentAttributes;
-    'ae-icons-component': Components.AeIconsComponentAttributes;
-    'ae-logo-component': Components.AeLogoComponentAttributes;
-    'ae-spinner-component': Components.AeSpinnerComponentAttributes;
-    'ae-svg-component': Components.AeSvgComponentAttributes;
-    'ae-svgcss-component': Components.AeSvgcssComponentAttributes;
-  }
 
 
   interface HTMLAeDevlistComponentElement extends Components.AeDevlistComponent, HTMLStencilElement {}
@@ -126,17 +74,7 @@ declare global {
     prototype: HTMLAeSvgcssComponentElement;
     new (): HTMLAeSvgcssComponentElement;
   };
-
   interface HTMLElementTagNameMap {
-    'ae-devlist-component': HTMLAeDevlistComponentElement
-    'ae-icons-component': HTMLAeIconsComponentElement
-    'ae-logo-component': HTMLAeLogoComponentElement
-    'ae-spinner-component': HTMLAeSpinnerComponentElement
-    'ae-svg-component': HTMLAeSvgComponentElement
-    'ae-svgcss-component': HTMLAeSvgcssComponentElement
-  }
-
-  interface ElementTagNameMap {
     'ae-devlist-component': HTMLAeDevlistComponentElement;
     'ae-icons-component': HTMLAeIconsComponentElement;
     'ae-logo-component': HTMLAeLogoComponentElement;
@@ -144,14 +82,54 @@ declare global {
     'ae-svg-component': HTMLAeSvgComponentElement;
     'ae-svgcss-component': HTMLAeSvgcssComponentElement;
   }
-
-
-  export namespace JSX {
-    export interface Element {}
-    export interface IntrinsicElements extends StencilIntrinsicElements {
-      [tagName: string]: any;
-    }
-  }
-  export interface HTMLAttributes extends StencilHTMLAttributes {}
-
 }
+
+declare namespace LocalJSX {
+  interface AeDevlistComponent extends JSXBase.HTMLAttributes<HTMLAeDevlistComponentElement> {
+    'onOnToggle'?: (event: CustomEvent<any>) => void;
+  }
+  interface AeIconsComponent extends JSXBase.HTMLAttributes<HTMLAeIconsComponentElement> {
+    'aesize'?: string;
+    'color'?: string;
+    'name'?: string;
+  }
+  interface AeLogoComponent extends JSXBase.HTMLAttributes<HTMLAeLogoComponentElement> {
+    'firstcolor'?: string;
+    'secondcolor'?: string;
+  }
+  interface AeSpinnerComponent extends JSXBase.HTMLAttributes<HTMLAeSpinnerComponentElement> {
+    'color'?: string;
+    'colortwo'?: string;
+    'type'?: string;
+  }
+  interface AeSvgComponent extends JSXBase.HTMLAttributes<HTMLAeSvgComponentElement> {
+    'id'?: string;
+    'url'?: string;
+    'wide'?: string;
+  }
+  interface AeSvgcssComponent extends JSXBase.HTMLAttributes<HTMLAeSvgcssComponentElement> {
+    'color'?: string;
+    'colortwo'?: string;
+    'type'?: string;
+  }
+
+  interface IntrinsicElements {
+    'ae-devlist-component': AeDevlistComponent;
+    'ae-icons-component': AeIconsComponent;
+    'ae-logo-component': AeLogoComponent;
+    'ae-spinner-component': AeSpinnerComponent;
+    'ae-svg-component': AeSvgComponent;
+    'ae-svgcss-component': AeSvgcssComponent;
+  }
+}
+
+export { LocalJSX as JSX };
+
+
+declare module "@stencil/core" {
+  export namespace JSX {
+    interface IntrinsicElements extends LocalJSX.IntrinsicElements {}
+  }
+}
+
+
