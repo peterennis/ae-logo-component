@@ -11,7 +11,7 @@ export const config: Config = {
   bundles: [
     {
       components: ['ae-devlist-component', 'ae-icons-component', 'ae-logo-component', 'ae-spinner-component',
-        'ae-svg-component', 'ae-svgcss-component']
+        'ae-svg-component', 'ae-svgcss-component', 'ae-video-component']
     }
   ],
   outputTargets: [

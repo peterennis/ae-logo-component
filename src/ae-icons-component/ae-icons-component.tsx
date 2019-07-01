@@ -18,9 +18,9 @@ export class AeIconsComponent {
    * componentWillLoad will only be called once.
    */
   componentWillLoad() {
-    //console.log('Component ae-icons-component is about to be rendered');
-    console.log('aesize=' + this.aesize + ' name=' + this.name + ' color=' + this.color)
-    //this.setMyVars();
+    // console.log('Component ae-icons-component is about to be rendered');
+    // onsole.log('aesize=' + this.aesize + ' name=' + this.name + ' color=' + this.color)
+    // this.setMyVars();
   }
 
   setMyVars() {

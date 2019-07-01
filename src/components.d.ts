@@ -34,6 +34,20 @@ export namespace Components {
     'colortwo': string;
     'type': string;
   }
+  interface AeVideoComponent {
+    /**
+    * Mute the video
+    */
+    'muted': boolean;
+    /**
+    * The image shown while the video is loading
+    */
+    'poster': string;
+    /**
+    * The video src
+    */
+    'src': string;
+  }
 }
 
 declare global {
@@ -74,6 +88,12 @@ declare global {
     prototype: HTMLAeSvgcssComponentElement;
     new (): HTMLAeSvgcssComponentElement;
   };
+
+  interface HTMLAeVideoComponentElement extends Components.AeVideoComponent, HTMLStencilElement {}
+  var HTMLAeVideoComponentElement: {
+    prototype: HTMLAeVideoComponentElement;
+    new (): HTMLAeVideoComponentElement;
+  };
   interface HTMLElementTagNameMap {
     'ae-devlist-component': HTMLAeDevlistComponentElement;
     'ae-icons-component': HTMLAeIconsComponentElement;
@@ -81,6 +101,7 @@ declare global {
     'ae-spinner-component': HTMLAeSpinnerComponentElement;
     'ae-svg-component': HTMLAeSvgComponentElement;
     'ae-svgcss-component': HTMLAeSvgcssComponentElement;
+    'ae-video-component': HTMLAeVideoComponentElement;
   }
 }
 
@@ -112,6 +133,20 @@ declare namespace LocalJSX {
     'colortwo'?: string;
     'type'?: string;
   }
+  interface AeVideoComponent extends JSXBase.HTMLAttributes<HTMLAeVideoComponentElement> {
+    /**
+    * Mute the video
+    */
+    'muted'?: boolean;
+    /**
+    * The image shown while the video is loading
+    */
+    'poster'?: string;
+    /**
+    * The video src
+    */
+    'src'?: string;
+  }
 
   interface IntrinsicElements {
     'ae-devlist-component': AeDevlistComponent;
@@ -120,6 +155,7 @@ declare namespace LocalJSX {
     'ae-spinner-component': AeSpinnerComponent;
     'ae-svg-component': AeSvgComponent;
     'ae-svgcss-component': AeSvgcssComponent;
+    'ae-video-component': AeVideoComponent;
   }
 }
 
