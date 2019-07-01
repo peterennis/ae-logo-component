@@ -1,10 +1,11 @@
+/* Ref: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 video {
   position: fixed;
   top: 50%;
   left: 50%;
+  width: 100%    !important;
+  height: auto   !important;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
   transform: translateX(-50%) translateY(-50%);
 }

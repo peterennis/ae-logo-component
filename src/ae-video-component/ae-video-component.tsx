@@ -31,6 +31,6 @@ export class AevideoComponent {
   }
 
   render() {
-    return <video width="320" height="240" controls preload="auto" muted={this.muted} src={this.src} poster={this.poster}></video>
+    return <video autoplay playsinline controls preload="auto" muted={this.muted} src={this.src} poster={this.poster}></video>
   }
 }
