@@ -27,9 +27,7 @@ export class AeSvgComponent {
 
   render() {
     return (
-      <div>
-        <img id={this.aeid} class="aesvg" src={this.url} width={this.wide} />
-      </div>
+      <img id={this.aeid} class="aesvg" src={this.url} width={this.wide} />
     );
   }
 }
