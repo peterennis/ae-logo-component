@@ -38,13 +38,13 @@ export class AeDevlistComponent {
   ];
 
   @State()
-  toggle: boolean = false;
+  toggle_state: boolean = false;
   @Event()
-  onToggle: EventEmitter;
+  toggle_event: EventEmitter;
 
   toggleComponent(): void {
-    this.toggle = !this.toggle;
-    this.onToggle.emit({ visible: this.toggle });
+    this.toggle_state = !this.toggle_state;
+    this.toggle_event.emit({ visible: this.toggle_event });
   }
 
   render() {

@@ -108,7 +108,7 @@ declare global {
 
 declare namespace LocalJSX {
   interface AeDevlistComponent {
-    'onOnToggle'?: (event: CustomEvent<any>) => void;
+    'onToggle_event'?: (event: CustomEvent<any>) => void;
   }
   interface AeIconsComponent {
     'aesize'?: string;
